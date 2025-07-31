@@ -9780,3 +9780,15 @@ org.spongepowered.asm.mixin.injection.throwables.InvalidInjectionException: Crit
 [31Jul2025 18:34:02.204] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unknown or incomplete command, see below for error
 [31Jul2025 18:34:02.205] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: sy podnosisz powetrze<--[HERE]
 [31Jul2025 18:34:19.117] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Server] podnosisz powietrze
+[31Jul2025 18:35:21.165] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Server] grj se jak chcesz, ale pisz na messie say graj se Jak chcesz, ale pisz na messie, ,  jastadd eychodze
+[31Jul2025 18:35:50.166] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Mikolaj: Set own game mode to Survival Mode]
+[31Jul2025 18:36:08.310] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mikolaj was slain by Raccoon
+[31Jul2025 18:36:08.417] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mikolaj has made the advancement [Your First Grave]
+[31Jul2025 18:36:08.432] [Server thread/INFO] [tombstone/]: The player Mikolaj has successfully been saved
+[31Jul2025 18:36:43.356] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mikolaj has reached the goal [Here They Come]
+[31Jul2025 18:37:33.161] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=45, y=70, z=-181} BlockPos{x=45, y=69, z=-181}
+[31Jul2025 18:37:33.807] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=45, y=71, z=-182} BlockPos{x=45, y=68, z=-181}
+[31Jul2025 18:37:40.401] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mikolaj has made the advancement [Stone Age]
+[31Jul2025 18:38:20.966] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3433ms or 68 ticks behind
+[31Jul2025 18:38:27.063] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Mikolaj lost connection: Disconnected
+[31Jul2025 18:38:27.063] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mikolaj left the game
