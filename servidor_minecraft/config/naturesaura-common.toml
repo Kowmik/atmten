@@ -1,4 +1,3 @@
-
 [general]
 	#Additional conversion recipes for the Botanist's Pickaxe right click function. Each entry needs to be formatted as modid:input_block[prop1=value1,...]->modid:output_block[prop1=value1,...] where block state properties are optional, and entries follow standard TOML array formatting (https://toml.io/en/v1.0.0#array).
 	additionalBotanistPickaxeConversions = []
@@ -51,17 +50,20 @@
 
 [client]
 	#The percentage of particles that should be displayed, where 1 is 100% and 0 is 0%
-	#Range: 0.0 ~ 1.0
+	# Default: 1.0
+	# Range: 0.0 ~ 1.0
 	particleAmount = 1.0
 	#If particle spawning should respect the particle setting in Minecraft's video settings screen
 	respectVanillaParticleSettings = false
 	#The percentage of particles that should spawn when there is an excess amount of Aura in the environment, where 1 is 100% and 0 is 0%
 	excessParticleAmount = 1.0
 	#The location of the aura bar, where 0 is top left, 1 is top right, 2 is bottom left and 3 is bottom right
-	#Range: 0 ~ 3
+	# Default: 0
+	# Range: 0 ~ 3
 	auraBarLocation = 0
 	#The location of the aura cache bar, where 0 is to the left of the hotbar and 1 is to the right of the hotbar
-	#Range: 0 ~ 1
+	# Default: 0
+	# Range: 0 ~ 1
 	cacheBarLocation = 0
 	#If debug information about Aura around the player should be displayed in the F3 debug menu if the player is in creative mode
 	debugText = true
@@ -69,4 +71,3 @@
 	debugLevel = false
 	#If certain equippable items, like the Environmental Eye, should be rendered on the player
 	renderItemsOnPlayer = true
-

@@ -1,4 +1,3 @@
-
 [general]
 	#If set to FALSE, support for sewing recipes will not be enabled regardless of the mod's presence.
 	enableSewingKitSupport = true
@@ -11,4 +10,3 @@
 	#If AUTO, the belt slot will be disabled if Curios is present. If OFF, the belt slot will be disabled permanently.
 	#Allowed Values: OFF, AUTO, ON
 	customBeltSlotMode = "ON"
-

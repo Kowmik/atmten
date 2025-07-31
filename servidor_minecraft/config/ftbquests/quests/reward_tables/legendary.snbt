@@ -1,171 +1,27 @@
 {
-	icon: "lootr:trophy"
 	id: "639509C7B28C90DF"
 	loot_size: 1
-	order_index: 16
+	order_index: 7
 	rewards: [
-		{ item: "apotheosis:library" }
-		{ count: 4, item: "apotheosis:mythic_material", random_bonus: 8, weight: 2.0f }
-		{ item: "apotheosis:superior_sigil_of_socketing", random_bonus: 1 }
+		{ id: "2F170CBB6EA5DEE4", item: { count: 1, id: "powah:thermo_generator_nitro" } }
+		{ id: "7971020D1B1B82D9", item: { count: 1, id: "minecraft:spawner" } }
+		{ id: "7147A8CE938E3B1A", item: { count: 1, id: "powah:solar_panel_nitro" } }
 		{
+			count: 36
+			id: "4BCA3467C8BC60A1"
 			item: {
-				Count: 1b
-				id: "quark:ancient_tome"
-				tag: {
-					StoredEnchantments: [{
-						id: "minecraft:fortune"
-						lvl: 8s
-					}]
-				}
+				count: 1
+				id: "powah:reactor_niotic"
 			}
 		}
+		{ id: "6159B6ADD18D59AC", item: { count: 1, id: "productivebees:spawn_egg_configurable_bee" } }
 		{
-			item: {
-				Count: 1b
-				id: "quark:ancient_tome"
-				tag: {
-					StoredEnchantments: [{
-						id: "minecraft:efficiency"
-						lvl: 9s
-					}]
-				}
-			}
-		}
-		{
-			item: {
-				Count: 1b
-				id: "quark:ancient_tome"
-				tag: {
-					StoredEnchantments: [{
-						id: "minecraft:sharpness"
-						lvl: 9s
-					}]
-				}
-			}
-		}
-		{ item: "thermal_extra:upgrade_augment", random_bonus: 2 }
-		{ item: "powah:thermo_generator_nitro" }
-		{
-			item: {
-				Count: 1b
-				id: "mekanism:basic_fluid_tank"
-				tag: {
-					mekData: {
-						FluidTanks: [{
-							Tank: 0b
-							stored: {
-								Amount: 32000
-								FluidName: "allthemodium:soul_lava"
-							}
-						}]
-						editMode: 0
-					}
-				}
-			}
-		}
-		{ item: "allthecompressed:nether_star_block_1x" }
-		{
-			item: {
-				Count: 1b
-				id: "minecraft:spawner"
-				tag: {
-					BlockEntityTag: {
-						Delay: 20s
-						ForgeCaps: { }
-						MaxNearbyEntities: 32s
-						MaxSpawnDelay: 20s
-						MinSpawnDelay: 20s
-						RequiredPlayerRange: 16s
-						SpawnCount: 16s
-						SpawnData: {
-							entity: {
-								id: "minecraft:trader_llama"
-							}
-						}
-						SpawnPotentials: [{
-							data: {
-								entity: {
-									id: "minecraft:trader_llama"
-								}
-							}
-							weight: 1
-						}]
-						SpawnRange: 4s
-						ignore_conditions: 1b
-						ignore_light: 0b
-						ignore_players: 1b
-						no_ai: 1b
-						redstone_control: 1b
-						silent: 1b
-					}
-				}
-			}
-		}
-		{ item: "powah:solar_panel_nitro" }
-		{ count: 36, item: "powah:reactor_niotic" }
-		{ item: "thermal_extra:machine_speed_augment_4", random_bonus: 2 }
-		{
-			item: {
-				Count: 1b
-				id: "productivebees:spawn_egg_configurable_bee"
-				tag: {
-					EntityTag: {
-						type: "productivebees:allthemodium"
-					}
-				}
-			}
-		}
-		{
+			id: "07C32E8D96241C35"
 			type: "xp_levels"
 			xp_levels: 100
 		}
-		{
-			item: {
-				Count: 1b
-				id: "productivebees:spawn_egg_configurable_bee"
-				tag: {
-					EntityTag: {
-						type: "productivebees:vibranium"
-					}
-				}
-			}
-		}
-		{
-			item: {
-				Count: 1b
-				id: "productivebees:spawn_egg_configurable_bee"
-				tag: {
-					EntityTag: {
-						type: "productivebees:unobtainium"
-					}
-				}
-			}
-		}
-		{
-			item: {
-				Count: 1b
-				id: "hostilenetworks:data_model"
-				tag: {
-					data_model: {
-						data: 54
-						id: "hostilenetworks:ender_dragon"
-					}
-				}
-			}
-		}
-		{
-			item: {
-				Count: 1b
-				id: "hostilenetworks:data_model"
-				tag: {
-					data_model: {
-						data: 54
-						id: "hostilenetworks:wither"
-					}
-				}
-			}
-		}
+		{ id: "5C7BAC8CAE97C4E4", item: { count: 1, id: "productivebees:spawn_egg_configurable_bee" } }
+		{ id: "743364960645C697", item: { count: 1, id: "productivebees:spawn_egg_configurable_bee" } }
 	]
-	title: "&6Legendary Reward"
 	use_title: true
 }

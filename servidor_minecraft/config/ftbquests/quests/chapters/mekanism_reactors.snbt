@@ -1,2144 +1,3252 @@
 {
 	default_hide_dependency_lines: false
 	default_min_width: 200
-	default_quest_shape: ""
+	default_quest_shape: "hexagon"
 	filename: "mekanism_reactors"
 	group: "2B51AC12041E3F89"
-	icon: "mekanism:supercharged_coil"
+	icon: {
+		id: "mekanism:ultimate_induction_provider"
+	}
 	id: "0A093D8C4429B627"
 	images: [
 		{
-			click: ""
-			corner: false
-			dev: false
+			height: 2.0d
+			image: "atm:textures/questpics/mek/mek_title_reactor.png"
+			rotation: 0.0d
+			width: 11.0d
+			x: 11.5d
+			y: 4.5d
+		}
+		{
+			height: 1.0d
+			image: "atm:textures/questpics/mek/mek_title_qio.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: 15.5d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "atm:textures/questpics/mek/mek_title_matrix.png"
+			rotation: 0.0d
+			width: 6.0d
+			x: 7.5d
+			y: 1.0d
+		}
+		{
+			height: 1.5d
+			image: "atm:textures/questpics/mek/mek_title_fission.png"
+			rotation: 0.0d
+			width: 9.0d
+			x: 11.5d
+			y: -5.0d
+		}
+		{
+			height: 1.0d
+			image: "atm:textures/questpics/mek/mek_title_turbine.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: 7.0d
+			y: -10.5d
+		}
+		{
+			height: 1.0d
+			image: "atm:textures/questpics/mek/mek_title_boiler.png"
+			rotation: 0.0d
+			width: 7.0d
+			x: 16.5d
+			y: -10.5d
+		}
+		{
+			height: 2.0d
+			image: "atm:textures/questpics/mek/mek_title_sps.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: 11.5d
+			y: -14.5d
+		}
+		{
+			height: 1.0d
+			image: "atm:textures/questpics/mek/mek_title_fusion.png"
+			rotation: 0.0d
+			width: 7.0d
+			x: 18.5d
+			y: -15.0d
+		}
+		{
+			height: 1.0d
+			image: "atm:textures/questpics/mek/mek_title_module.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: 2.5d
+			y: -15.0d
+		}
+		{
+			height: 1.0d
+			image: "atm:textures/questpics/mek/mek_title_suit.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: 9.0d
+			y: -21.5d
+		}
+		{
+			height: 3.5d
+			image: "atm:textures/questpics/mek/mek_fission4.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: 6.0d
+			y: -7.0d
+		}
+		{
+			height: 4.0d
+			image: "atm:textures/questpics/mek/mek_turbine7.png"
+			rotation: 0.0d
+			width: 3.5d
+			x: 3.0d
+			y: -12.5d
+		}
+		{
 			height: 3.0d
-			hover: [ ]
-			image: "ftbquests:tasks/input_only"
-			rotation: 45.0d
+			image: "atm:textures/questpics/mek/mek_boiler4.png"
+			rotation: 0.0d
 			width: 3.0d
 			x: 17.0d
 			y: -7.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 3.0d
-			hover: [ ]
-			image: "ftbquests:tasks/input_only"
+			image: "atm:textures/questpics/mek/mek_fusion5.png"
 			rotation: 0.0d
 			width: 3.0d
-			x: 17.0d
-			y: -7.0d
-		}
-		{
-			click: ""
-			corner: false
-			dev: false
-			height: 3.0d
-			hover: [ ]
-			image: "ftbquests:block/barrier_open"
-			rotation: 0.0d
-			width: 3.0d
-			x: 2.0d
-			y: -7.0d
-		}
-		{
-			click: ""
-			corner: false
-			dev: false
-			height: 3.0d
-			hover: [ ]
-			image: "ftbquests:block/barrier_open"
-			rotation: 45.0d
-			width: 3.0d
-			x: 2.0d
-			y: -7.0d
-		}
-		{
-			click: ""
-			corner: false
-			dev: false
-			height: 1.0d
-			hover: [ ]
-			image: "mekanism:item/hazmat_mask"
-			rotation: 0.0d
-			width: 1.0d
-			x: -1.0d
-			y: 0.75d
-		}
-		{
-			click: ""
-			corner: false
-			dev: false
-			height: 1.0d
-			hover: [ ]
-			image: "mekanism:item/hazmat_gown"
-			rotation: 0.0d
-			width: 1.0d
-			x: -1.0d
-			y: 1.25d
-		}
-		{
-			click: ""
-			corner: false
-			dev: false
-			height: 1.0d
-			hover: [ ]
-			image: "mekanism:item/hazmat_pants"
-			rotation: 0.0d
-			width: 1.0d
-			x: -1.0d
-			y: 1.75d
-		}
-		{
-			click: ""
-			corner: false
-			dev: false
-			height: 1.0d
-			hover: [ ]
-			image: "mekanism:item/hazmat_boots"
-			rotation: 0.0d
-			width: 1.0d
-			x: -1.0d
-			y: 2.25d
-		}
-		{
-			click: ""
-			corner: false
-			dev: false
-			height: 1.0d
-			hover: [ ]
-			image: "mekanism:item/fluorite_gem"
-			rotation: 0.0d
-			width: 1.0d
-			x: 8.0d
-			y: 1.5d
-		}
-		{
-			click: ""
-			corner: false
-			dev: false
-			height: 1.0d
-			hover: [ ]
-			image: "mekanism:item/yellow_cake_uranium"
-			rotation: 0.0d
-			width: 1.0d
-			x: 8.0d
-			y: 3.5d
-		}
-		{
-			click: ""
-			corner: false
-			dev: false
-			height: 11.0d
-			hover: ["Fusion Reactor"]
-			image: "atm:textures/questpics/mek/fusion_cutout.png"
-			rotation: 0.0d
-			width: 10.627118644067796d
-			x: 17.0d
+			x: 19.0d
 			y: -13.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
-			height: 12.0d
-			hover: ["Industrial Turbine"]
-			image: "atm:textures/questpics/mek/turbine_cutout.png"
+			height: 4.0d
+			image: "atm:textures/questpics/mek/mek_sps7.png"
 			rotation: 0.0d
-			width: 10.536144578313253d
-			x: 20.0d
-			y: 0.0d
+			width: 4.0d
+			x: 11.5d
+			y: -25.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
-			height: 10.0d
-			hover: ["Fission Reactor"]
-			image: "atm:textures/questpics/mek/fission_cutout.png"
+			height: 1.0d
+			image: "atm:textures/questpics/mek/mek_matrix4.png"
 			rotation: 0.0d
-			width: 9.661016949152541d
-			x: 2.0d
-			y: 9.5d
+			width: 1.0d
+			x: 5.0d
+			y: -1.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
-			height: 10.0d
-			hover: ["Supercritical Phase Shifter"]
-			image: "atm:textures/questpics/mek/sps_cutout.png"
+			height: 1.0d
+			image: "atm:textures/questpics/mek/mek_qio.png"
 			rotation: 0.0d
-			width: 12.687687687687689d
-			x: -4.5d
-			y: -7.0d
+			width: 1.0d
+			x: 17.5d
+			y: -1.5d
 		}
 		{
-			alpha: 150
-			click: ""
-			corner: false
-			dev: false
 			height: 1.5d
-			hover: [ ]
-			image: "ae2:block/controller_column_lights"
-			rotation: 90.0d
-			width: 1.5d
-			x: 4.0d
-			y: -1.0d
-		}
-		{
-			click: ""
-			corner: false
-			dev: false
-			height: 1.0d
-			hover: [ ]
-			image: "mob_grinding_utils:blocks/fan_front_on"
-			rotation: -45.0d
-			width: 1.0d
-			x: 11.0d
-			y: -0.5d
-		}
-		{
-			click: ""
-			corner: false
-			dev: false
-			height: 1.0d
-			hover: [ ]
-			image: "mob_grinding_utils:blocks/fan_front_on"
-			rotation: -45.0d
-			width: 1.0d
-			x: 11.0d
-			y: 1.5d
-		}
-		{
-			click: ""
-			corner: false
-			dev: false
-			height: 1.0d
-			hover: [ ]
-			image: "ftbquests:block/screen_side"
-			order: -1
+			image: "atm:textures/questpics/mek/mek_title_antimatter.png"
 			rotation: 0.0d
-			width: 5.0d
-			x: 12.5d
-			y: -6.0d
-		}
-		{
-			click: ""
-			corner: false
-			dev: false
-			height: 5.0d
-			hover: [ ]
-			image: "ars_nouveau:textures/particle/laser.png"
-			rotation: 90.0d
-			width: 0.5d
-			x: 12.5d
-			y: -6.0d
-		}
-		{
-			click: ""
-			corner: false
-			dev: false
-			height: 1.0d
-			hover: [ ]
-			image: "securitycraft:block/ani_laser"
-			rotation: 0.0d
-			width: 0.021739130434782608d
-			x: 12.0d
-			y: -4.5d
-		}
-		{
-			click: ""
-			corner: false
-			dev: false
-			height: 1.0d
-			hover: [ ]
-			image: "securitycraft:block/ani_laser"
-			rotation: 0.0d
-			width: 0.021739130434782608d
-			x: 13.0d
-			y: -4.0d
-		}
-		{
-			click: ""
-			corner: false
-			dev: false
-			height: 0.5d
-			hover: ["&dNeeded for the ATM Star&r"]
-			image: "allthetweaks:item/atm_star"
-			rotation: 0.0d
-			width: 0.5d
-			x: 2.0d
-			y: -8.5d
-		}
-		{
-			click: ""
-			corner: false
-			dev: false
-			height: 0.3d
-			hover: ["&dNeeded for the ATM Star&r"]
-			image: "allthetweaks:item/atm_star"
-			rotation: 0.0d
-			width: 0.3d
-			x: 6.6d
-			y: -5.5d
+			width: 7.0d
+			x: 11.5d
+			y: -23.0d
 		}
 	]
-	order_index: 3
+	order_index: 6
+	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["24174700F7FB771C"]
-			description: [
-				"To start our journey into the world of Mekanism Reactors, we'll start by making a &aFission Reactor&r. These are multiblock structures that generate massive amounts of heat by burning &3Fissile Fuel&r. This reactor does not produce power on its own, but the heat generated can be used to heat &bCoolant&r to be used to generate power in an &aIndustrial Turbine&r."
-				""
-				"The Fission Reactor can be very dangerous, as a meltdown can cause an &cexplosion&r as well as &2Radiation&r spreading over a 5 chunk radius, which lasts for several in-game weeks. "
-				""
-				"But we're going to be prepared for that. Let's make a Hazmat Suit, just in case... right?"
-			]
-			id: "36B1995B495AA674"
-			min_width: 350
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "1A6ABA2C6D742CE0"
-					table_id: 7197061527498167330L
-					type: "random"
-				}
-				{
-					id: "6D8B557D90A02403"
-					type: "xp"
-					xp: 10
-				}
-			]
-			shape: "gear"
-			subtitle: "Orange = Radiation Protection"
-			tasks: [
-				{
-					id: "14BF9ADCB8F43ADC"
-					item: "mekanism:hazmat_mask"
-					type: "item"
-				}
-				{
-					id: "0B06DCC5BA15895E"
-					item: "mekanism:hazmat_gown"
-					type: "item"
-				}
-				{
-					id: "1F43C3AE8239B716"
-					item: "mekanism:hazmat_pants"
-					type: "item"
-				}
-				{
-					id: "68B050A8CDCDCD10"
-					item: "mekanism:hazmat_boots"
-					type: "item"
-				}
-			]
-			title: "Suiting Up for Reactors"
-			x: 0.0d
-			y: 0.5d
-		}
-		{
-			dependencies: ["36B1995B495AA674"]
-			description: [
-				"It's time to gather the materials we'll need to build the reactor."
-				""
-				"Just like most Mekanism multiblocks, reactors can be a custom size depending on your needs. They must be cuboid, with the minimum outside size being 3 wide, 4 tall, and 3 blocks deep. The maximum size is 18x18x18. &aWe're going to build a 5x5 to start with&r."
-				""
-				"The edges of the outer shell &bmust&r be made out of &aFission Reactor Casings&r, while the faces can be either casings or &bReactor Glass&r, Reactor Ports, or Reactor Logic Adapters. We'll get to those later."
-				""
-				"For now, let's build a basic 5x5x5 Fission Reactor!"
-				""
-				"Need more help building it? Holding &dw&r while hovering over the Fission Reactor Casing will show you the Ponder that can help you build it."
-			]
-			hide: false
-			id: "1482F2D45E8F761D"
-			min_width: 300
-			rewards: [
-				{
-					command: "/create ponder mekanismgenerators:fission_reactor_casing"
-					icon: "ftbquests:barrier"
-					id: "747F4E333BDC5563"
-					title: "Click Me To See How To Build!"
-					type: "command"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "42378432B647A5A8"
-					table_id: 8364958827326577211L
-					type: "loot"
-				}
-				{
-					id: "0792BEFF2D7C604C"
-					type: "xp"
-					xp: 100
-				}
-			]
-			shape: "square"
-			subtitle: "Casings and Glass"
-			tasks: [
-				{
-					count: 53L
-					id: "19447D5D621A8D89"
-					item: "mekanismgenerators:fission_reactor_casing"
-					type: "item"
-				}
-				{
-					count: 41L
-					id: "0765AB709CC3C6E2"
-					item: "mekanismgenerators:reactor_glass"
-					type: "item"
-				}
-			]
-			title: "Fission Reactor Building Basics"
-			x: 0.0d
-			y: 2.5d
-		}
-		{
-			dependencies: ["1482F2D45E8F761D"]
-			description: [
-				"For us to take anything in or out of the Fission Reactor, we'll need &aFission Reactor Ports&r. These can be configured to input or output by using the &9Configurator&r. "
-				""
-				"Every Fission Reactor &aneeds a minimum of 4 Ports&r:"
-				""
-				"1 Coolant Input"
-				"1 Coolant Output"
-				"1 Fissile Fuel Input"
-				"1 Waste Output"
-				""
-				"For this starter build, let's put a port on each side like the image shown below. Make sure to configure them to match the list of inputs and outputs!"
-				""
-				"{image:atm:textures/questpics/mek/port_example.png width:200 height:200 align:1}"
-			]
-			id: "0696B725E840B996"
-			min_width: 400
-			rewards: [
-				{
-					command: "/create ponder mekanismgenerators:fission_reactor_port"
-					icon: "mekanismgenerators:fission_reactor_port"
-					id: "5B0B515B95ACDB8C"
-					title: "Click Me To Learn More!"
-					type: "command"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "6AC80E7D1E9239A7"
-					table_id: 8364958827326577211L
-					type: "loot"
-				}
-				{
-					id: "11FABC06766669F5"
-					type: "xp"
-					xp: 50
-				}
-			]
-			shape: "rsquare"
-			tasks: [{
-				count: 4L
-				id: "057CDA5BC0C5F774"
-				item: "mekanismgenerators:fission_reactor_port"
-				type: "item"
-			}]
-			title: "Interacting with the Fission Reactor"
-			x: 1.5d
-			y: 2.5d
-		}
-		{
-			dependencies: ["1482F2D45E8F761D"]
-			description: [
-				"Afraid of blowing up your Fission Reactor and causing a massive Radiation leak? Don't worry, we all are. &o*insert terrible flashback here*&r"
-				""
-				"So how can we prevent such a catastrophic disaster? By creating a redstone &aCircuit Breaker&r using &dFission Reactor Logic Adapters&r. Now these aren't 100% guaranteed to stop an explosion, but they are absolutely nice to have."
-				""
-				"Essentially, these Adapters allow us to control the Reactor using &cRedstone&r. With just one, you can use a lever to turn on and off the reactor. However, we're going to use them for damage control."
-				""
-				"You can also set these to give off a Redstone Signal based on a certain condition within the Reactor, like &cDamage Critical&r or &8Insufficient Fuel&r. This is useful for setting up a circuit breaker to shut off the Reactor if those ever happen."
-				""
-				"{image:atm:textures/questpics/mek/logic_adapter.png width:150 height:125 align:1}"
-			]
-			id: "5FDB48511EC1C580"
+			dependencies: ["3D2B4D9FD2086B9B"]
+			id: "7B0764DDE94E73D0"
 			min_width: 300
 			optional: true
 			rewards: [{
-				id: "2E5FE4E46429A82D"
-				type: "xp"
-				xp: 50
-			}]
-			shape: "hexagon"
-			subtitle: "Because We've All Blown Up A Reactor Before"
-			tasks: [{
-				id: "16B10EA105CCC1D3"
-				item: "mekanismgenerators:fission_reactor_logic_adapter"
+				count: 10
+				id: "1762EDDFC1D84595"
+				item: {
+					count: 1
+					id: "mekanismgenerators:fission_reactor_casing"
+				}
 				type: "item"
 			}]
-			title: "Reactor Fail Safe"
-			x: 1.5d
-			y: 3.5d
-		}
-		{
-			dependencies: ["1482F2D45E8F761D"]
-			description: [
-				"The inside of the reactor is built up of pillars using several &aFission Fuel Assembly&r blocks, with a single &aControl Rod Assembly&r placed at the top of each pillar. These can be anywhere from 1 to 15 blocks in height, depending on the size of the reactor."
-				""
-				"For this build, we'll put 2 of the Fission Fuel Assemblies in the center of our multiblock, and then put the Control Rod Assembly right on top of it."
-				""
-				"{image:atm:textures/questpics/mek/rod_example.png width:250 height:200 align:1}"
-			]
-			id: "3F5010269469EBE0"
-			min_width: 250
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "27BB1242A6E08E5D"
-					table_id: 8364958827326577211L
-					type: "loot"
-				}
-				{
-					id: "6819DA9F73BA383C"
-					type: "xp"
-					xp: 50
-				}
-			]
-			shape: "rsquare"
-			tasks: [
-				{
-					count: 2L
-					id: "032045BB026F44B3"
-					item: "mekanismgenerators:fission_fuel_assembly"
-					type: "item"
-				}
-				{
-					id: "0875D821930A348A"
-					item: "mekanismgenerators:control_rod_assembly"
-					type: "item"
-				}
-			]
-			title: "Inside the Reactor: Fuel Control"
-			x: 1.5d
-			y: 1.5d
-		}
-		{
-			dependencies: ["5FDB48511EC1C580"]
-			description: [
-				"Using some vanilla mechanics and 2 &aFission Reactor Logic Adapters&r, we can create a simple circuit breaker to trip and turn off the reactor &o&ein case things get a little crazy&r."
-				""
-				"To do this, we'll need a single piece of Redstone, a Piston, a block of either sand or gravel, and an Observer."
-				""
-				"On one of the faces, we'll want to put a Logic Adapter down, then skip a block above it and then place another Adapter. Set the top Adapter to &9\"Activation\"&r, and the bottom Adapter to &c\"Damage Critical\"&r."
-				""
-				"Next, in front and underneath the bottom Adapter, place any building block and stick a piece of Redstone on it leading from the Adapter. We'll then place a Piston facing up in front of that Redstone, then place our piece of sand or gravel on that Piston."
-				""
-				"For the final part of our breaker, place the Observer with the face pointing &boutwards towards the Piston setup&r. &9This is important&r!"
-				""
-				"Whenever the Reactor has critical damage, it will then activate the bottom Adapter, causing the redstone to get a signal, which then activates the Piston and pushes up the Gravel/Sand. This will activate the Observer, which then turns off the Reactor."
-				""
-				"{image:atm:textures/questpics/mek/example_circuit.png width:200 height:250 align:1}"
-			]
-			icon: "minecraft:observer"
-			id: "7B0764DDE94E73D0"
-			min_width: 500
-			optional: true
-			rewards: [
-				{
-					command: "/create ponder mekanismgenerators:fission_reactor_logic_adapter"
-					icon: "mekanismgenerators:fission_reactor_logic_adapter"
-					id: "4CE5F77418DBFFFB"
-					title: "Click Me To Learn More!"
-					type: "command"
-				}
-				{
-					id: "102A352650624E7C"
-					type: "xp"
-					xp: 100
-				}
-			]
 			shape: "hexagon"
-			subtitle: "Need a visual? Watch the Ponder!"
 			tasks: [
 				{
 					count: 2L
 					id: "25FB07BDEC8EE4EF"
-					item: "mekanismgenerators:fission_reactor_logic_adapter"
+					item: { count: 1, id: "mekanismgenerators:fission_reactor_logic_adapter" }
 					type: "item"
 				}
 				{
-					id: "6F57410F914C4D07"
-					item: "minecraft:redstone"
+					id: "77211E454F98A72B"
+					item: { count: 1, id: "minecraft:redstone" }
 					type: "item"
 				}
 				{
-					id: "5BC88AE46F95774D"
-					item: {
-						Count: 1b
-						id: "itemfilters:or"
-						tag: {
-							items: [
-								{
-									Count: 1b
-									id: "minecraft:gravel"
-								}
-								{
-									Count: 1b
-									id: "minecraft:sand"
-								}
-							]
-						}
-					}
-					title: "Gravel or Sand"
-					type: "item"
-				}
-				{
-					id: "584B8A392FBCD199"
-					item: "minecraft:piston"
-					type: "item"
-				}
-				{
-					id: "139EDEDEA3DAD312"
-					item: "minecraft:observer"
-					type: "item"
-				}
-			]
-			title: "Example Circuit Breaker"
-			x: 1.5d
-			y: 4.5d
-		}
-		{
-			dependencies: ["1DE8B0C9A7195720"]
-			description: [
-				"When burning fuel, the Fission Reactor creates a massive amount of heat. To prevent the Reactor from converting into TNT, we need to make sure it is properly cooled."
-				""
-				"The easiest way to do this is by giving the Reactor &9Water&r from a Sink. The Sink is an infinite water source, which is &oreally nice for a situation like this&r."
-				""
-				"Pump out the water into one of the Reactor's Ports that is set to &ainput&r to fill up the Reactor with water. This will be heated while the Reactor is running and get converted to &bSteam&r, which you can use to create power in an &9Industrial Turbine&r."
-				""
-				"&eSodium&r can also be used as a much more efficient coolant. This allows for higher burn rates and lower core temperatures."
-			]
-			id: "2B76B2F18C2C47D2"
-			min_width: 300
-			progression_mode: "linear"
-			rewards: [{
-				id: "1E2809FAFCF0A292"
-				type: "xp"
-				xp: 10
-			}]
-			shape: "rsquare"
-			subtitle: "High Quality H2O"
-			tasks: [{
-				id: "7E8281C007094843"
-				item: "cookingforblockheads:sink"
-				type: "item"
-			}]
-			title: "Cooling Our Reactor"
-			x: 3.0d
-			y: 4.0d
-		}
-		{
-			dependencies: [
-				"0696B725E840B996"
-				"3F5010269469EBE0"
-			]
-			description: [
-				"Once you've finished placing in all of the required blocks to build the Reactor, it should give off red particles to show that it is complete."
-				""
-				"Right clicking anywhere on the Reactor will open up the &aInterface&r. This will have all of the information you need to run the Reactor properly, as well as two buttons to turn on and off the Reactor."
-				""
-				"On the left, you have 2 tanks: One for &bCoolant&r and one for &3Fissile Fuel&r. On the right, you have one for &8Nuclear Waste&r, and one for &bHeated Coolant&r, which will most likely be &bSteam&r."
-				""
-				"The &cTemperature&r bar will show you how hot the Reactor is. After a certain temp, the Reactor will start taking &4Damage&r, which will eventually cause the Reactor to explode."
-				""
-				"To adjust the &cBurn Rate&r of the Fissile Fuel and see more statistics, click on the (I) tab on the left side. Here, you can adjust the Rate Limit, which controls how much fuel the Reactor burns per tick."
-				""
-				"{image:atm:textures/questpics/mek/reactor_interface_1.png width:200 height:150 align:1}"
-				"{image:atm:textures/questpics/mek/reactor_interface_2.png width:200 height:150 align:1}"
-			]
-			icon: "mekanism:geiger_counter"
-			id: "1DE8B0C9A7195720"
-			min_width: 500
-			progression_mode: "linear"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "4A0CA5788E093C63"
-					table_id: 8364958827326577211L
-					type: "loot"
-				}
-				{
-					id: "08BFEE4DB82A488D"
-					type: "xp"
-					xp: 250
-				}
-			]
-			shape: "square"
-			size: 1.5d
-			subtitle: "Those are definitely numbers"
-			tasks: [{
-				icon: "mekanism:geiger_counter"
-				id: "34D8628732B36EDF"
-				title: "Observe a Completed Reactor"
-				type: "custom"
-			}]
-			title: "The Fission Reactor Interface"
-			x: 3.0d
-			y: 2.5d
-		}
-		{
-			dependencies: ["3B81800EE6E77EF2"]
-			description: [
-				"Every Reactor uses Uranium somewhere for fuel, right?"
-				""
-				"For starters, let's gather some &aUranium Ingots&r. We'll need to process these in an &9Enrichment Chamber&r to turn it into &eYellow Cake Uranium&r."
-			]
-			icon: "mekanism:yellow_cake_uranium"
-			id: "7E17AB5A4492929E"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "42A731D3881A8723"
-					table_id: 8364958827326577211L
-					type: "loot"
-				}
-				{
-					id: "48CC9D36035B2625"
-					type: "xp"
-					xp: 25
-				}
-			]
-			shape: "rsquare"
-			subtitle: "Of Course It Uses Uranium"
-			tasks: [
-				{
-					id: "5641530385DCA6A7"
-					item: "alltheores:uranium_ingot"
+					id: "514207C426B8725F"
+					item: { count: 1, id: "minecraft:redstone_torch" }
 					type: "item"
 				}
 				{
 					count: 2L
-					id: "1C72C0C59D65B1D0"
-					item: "mekanism:yellow_cake_uranium"
+					id: "63A070075644110C"
+					item: { count: 2, id: "minecraft:repeater" }
 					type: "item"
 				}
 			]
-			title: "&aUranium"
-			x: 5.5d
-			y: 3.5d
+			x: 8.0d
+			y: -6.5d
 		}
 		{
-			dependencies: ["7E17AB5A4492929E"]
-			description: ["Once we have our hands on &eYellow Cake Uranium&r, we can send it through a &aChemical Oxidizer&r to create the gas, &2Uranium Oxide&r. "]
-			id: "3AF4E5D4839CEF8B"
-			progression_mode: "linear"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "4B0908AEDBA24DDF"
-					table_id: 8364958827326577211L
-					type: "loot"
-				}
-				{
-					id: "147637FB74512198"
-					type: "xp"
-					xp: 25
-				}
-			]
+			id: "066F78936C8F943B"
+			invisible: true
+			optional: true
+			shape: "circle"
 			tasks: [
 				{
-					id: "772EA844FE7C1B74"
-					item: "mekanism:chemical_oxidizer"
+					id: "59F0226D83026397"
+					type: "checkmark"
+				}
+				{
+					id: "363BADA865C39474"
+					type: "checkmark"
+				}
+			]
+			x: 13.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"302E9BC711779A4A"
+				"7D279FC39DA5C630"
+			]
+			id: "71766BD7321FCB13"
+			rewards: [{
+				id: "14451F85B9466C23"
+				item: {
+					components: {
+						"mekanism:chemicals": {
+							chemical_tanks: [{
+								amount: 8000L
+								id: "mekanism:fissile_fuel"
+							}]
+						}
+						"mekanism:owner": [I;
+							1448333235
+							-1957933073
+							-1931931567
+							1246553530
+						]
+					}
+					count: 1
+					id: "mekanism:basic_chemical_tank"
+				}
+				type: "item"
+			}]
+			shape: "circle"
+			size: 1.25d
+			tasks: [
+				{
+					id: "10116ABDDEA3FCAC"
+					item: { count: 1, id: "mekanism:chemical_infuser" }
 					type: "item"
 				}
 				{
-					icon: "mekanism:basic_chemical_tank"
-					id: "29D6CA9A77ACACC6"
-					title: "Observe Uranium Oxide in a Machine"
-					type: "custom"
+					id: "7091063AB75E79FF"
+					item: { count: 1, id: "mekanism:isotopic_centrifuge" }
+					type: "item"
 				}
 			]
-			title: "&eUranium Oxide"
-			x: 7.0d
-			y: 3.5d
+			x: 11.5d
+			y: -2.0d
 		}
 		{
-			dependencies: ["7E4A95B6443F23BC"]
-			description: [
-				"As a recap, we've set up an advanced Ore Processing facility using several gases, machinery, and more."
-				""
-				"In this chapter, we'll be using more of those to create powerful multiblock &aReactors&r, as well as advanced ways to create and store power. This will also lead to making &dAntimatter Pellets&r, which are used to make the &6ATM Star&r, as well as some of the strongest tools and weapons in the pack."
-			]
-			icon: "mekanism:antiprotonic_nucleosynthesizer"
-			id: "24174700F7FB771C"
-			min_width: 300
+			dependencies: ["078B69E9362A5496"]
+			id: "302E9BC711779A4A"
 			rewards: [{
-				id: "73F5CE911AC4474C"
-				type: "xp"
-				xp: 10
+				count: 16
+				id: "592C790CE030088D"
+				item: {
+					count: 1
+					id: "alltheores:uranium_ingot"
+				}
+				type: "item"
 			}]
-			shape: "hexagon"
-			size: 2.0d
-			subtitle: "&cRequires Quest \"Advanced Mekanism\" Completion from the Mekanism Chapter&r"
+			shape: "square"
+			tasks: [
+				{
+					id: "103895C9792183DB"
+					item: { count: 1, id: "mekanism:enrichment_chamber" }
+					type: "item"
+				}
+				{
+					id: "06547CA7D18AF8DE"
+					item: { count: 1, id: "mekanism:yellow_cake_uranium" }
+					type: "item"
+				}
+				{
+					id: "43CE1470FB6E2812"
+					item: { count: 1, id: "mekanism:chemical_oxidizer" }
+					type: "item"
+				}
+			]
+			x: 12.5d
+			y: -0.5d
+		}
+		{
+			icon: {
+				id: "alltheores:sulfur"
+			}
+			id: "078B69E9362A5496"
+			rewards: [
+				{
+					count: 16
+					id: "23FA8D2CB23719BE"
+					item: {
+						count: 1
+						id: "alltheores:fluorite"
+					}
+					type: "item"
+				}
+				{
+					count: 10
+					id: "2C2CE9D033F148F8"
+					item: {
+						count: 1
+						id: "alltheores:sulfur"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "57461A801D5631A4"
+					item: {
+						count: 1
+						id: "alltheores:uranium_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "5570C4953E1C8D3F"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			shape: "gear"
+			size: 3.0d
+			tasks: [
+				{
+					id: "6A352964478AE499"
+					item: { count: 1, id: "alltheores:sulfur" }
+					type: "item"
+				}
+				{
+					id: "2F99C90ED3E9CD14"
+					item: { count: 1, id: "mekanism:chemical_oxidizer" }
+					type: "item"
+				}
+				{
+					id: "1F7C3D5DE3CE359D"
+					item: { count: 1, id: "mekanism:electrolytic_separator" }
+					type: "item"
+				}
+				{
+					id: "7F9BB8A0E6B662B7"
+					item: { count: 1, id: "mekanism:chemical_infuser" }
+					type: "item"
+				}
+			]
+			x: 11.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["078B69E9362A5496"]
+			id: "7D279FC39DA5C630"
+			rewards: [{
+				count: 15
+				id: "0309F3EDC5431D7C"
+				item: {
+					count: 1
+					id: "alltheores:fluorite"
+				}
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [
+				{
+					id: "09C72A7EF91EA3F0"
+					item: { count: 1, id: "mekanism:rotary_condensentrator" }
+					type: "item"
+				}
+				{
+					id: "2329949C49F49896"
+					item: { count: 1, id: "mekanism:chemical_infuser" }
+					type: "item"
+				}
+				{
+					id: "5706A7343CD5C0B2"
+					item: { count: 1, id: "mekanism:chemical_dissolution_chamber" }
+					type: "item"
+				}
+				{
+					id: "41A5F4BEC3477FEF"
+					item: { count: 1, id: "alltheores:fluorite" }
+					type: "item"
+				}
+			]
+			x: 10.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["71766BD7321FCB13"]
+			hide_dependent_lines: true
+			id: "09D7D3CF61E156B1"
+			rewards: [
+				{
+					count: 3
+					id: "7EEDA4696EEE87F4"
+					item: {
+						count: 1
+						id: "mekanismgenerators:fission_fuel_assembly"
+					}
+					type: "item"
+				}
+				{
+					id: "0616F93590FD15E0"
+					item: {
+						count: 1
+						id: "mekanismgenerators:control_rod_assembly"
+					}
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			size: 1.25d
+			tasks: [
+				{
+					id: "515AB12A08EB4C3B"
+					item: { count: 1, id: "mekanismgenerators:fission_fuel_assembly" }
+					type: "item"
+				}
+				{
+					id: "38277C87C47B2956"
+					item: { count: 1, id: "mekanismgenerators:control_rod_assembly" }
+					type: "item"
+				}
+			]
+			x: 11.5d
+			y: -3.5d
+		}
+		{
+			id: "3D2B4D9FD2086B9B"
+			rewards: [{
+				count: 25
+				id: "4F9A97FA346920B7"
+				item: {
+					count: 1
+					id: "minecraft:redstone"
+				}
+				type: "item"
+			}]
+			shape: "pentagon"
+			size: 1.25d
 			tasks: [{
-				id: "3153288DCE1C4FEF"
-				title: "&aMekanism&r: &dAdvanced&r"
-				type: "checkmark"
+				id: "1FFA7054AE0730CC"
+				item: { count: 1, id: "mekanismgenerators:fission_reactor_logic_adapter" }
+				type: "item"
 			}]
-			x: 1.5d
-			y: -1.0d
+			x: 9.5d
+			y: -7.0d
 		}
 		{
-			dependencies: ["1DE8B0C9A7195720"]
-			description: [
-				"The Fission Reactor needs &3Fissile Fuel&r to run. If you look up Fissile Fuel right now in JEI, I bet you'll get overwhelmed with everything you need to make it. It's okay, you've got this. Let's take it one step at a time."
-				""
-				"It all boils down to creating &eUranium Hexafluoride&r. To do this, let's focus on making these two gases: &bHydrofluoric Acid&r, and &eUranium Oxide&r."
-			]
-			icon: "mekanism:reprocessed_fissile_fragment"
-			id: "3B81800EE6E77EF2"
+			id: "5A088F8402230BA5"
 			rewards: [{
-				id: "21A507B60A7721B0"
+				count: 2
+				id: "31EB458A27C8520E"
+				item: {
+					count: 1
+					id: "mekanismgenerators:fission_reactor_port"
+				}
+				type: "item"
+			}]
+			shape: "pentagon"
+			size: 1.25d
+			tasks: [{
+				count: 2L
+				id: "188B99F1119A30C2"
+				item: { count: 1, id: "mekanismgenerators:fission_reactor_port" }
+				type: "item"
+			}]
+			x: 13.5d
+			y: -7.0d
+		}
+		{
+			dependencies: [
+				"5A088F8402230BA5"
+				"3D2B4D9FD2086B9B"
+				"09D7D3CF61E156B1"
+			]
+			id: "7E3C84D7FCEC9D52"
+			rewards: [
+				{
+					id: "710EC0EF1CE6BD37"
+					item: {
+						components: {
+							"mekanism:chemicals": {
+								chemical_tanks: [{
+									amount: 64000L
+									id: "mekanism:fissile_fuel"
+								}]
+							}
+							"mekanism:owner": [I;
+								1448333235
+								-1957933073
+								-1931931567
+								1246553530
+							]
+						}
+						count: 1
+						id: "mekanism:basic_chemical_tank"
+					}
+					type: "item"
+				}
+				{
+					count: 20
+					id: "374D246DFF8CEDA3"
+					item: {
+						count: 1
+						id: "mekanismgenerators:fission_reactor_casing"
+					}
+					type: "item"
+				}
+				{
+					count: 15
+					id: "494F164FCB1493C2"
+					item: {
+						count: 1
+						id: "mekanismgenerators:reactor_glass"
+					}
+					type: "item"
+				}
+				{
+					id: "0BD683FA7B328B3A"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			shape: "octagon"
+			size: 2.25d
+			tasks: [
+				{
+					count: 29L
+					id: "724A504C041AC7D1"
+					item: { count: 1, id: "mekanismgenerators:fission_reactor_casing" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "3917421D27C651E4"
+					item: { count: 4, id: "mekanismgenerators:fission_reactor_port" }
+					type: "item"
+				}
+				{
+					id: "485901683F26B1F5"
+					item: { count: 1, id: "mekanismgenerators:fission_reactor_logic_adapter" }
+					type: "item"
+				}
+				{
+					id: "09BBD0A994BA77A1"
+					item: { count: 1, id: "mekanismgenerators:fission_fuel_assembly" }
+					type: "item"
+				}
+				{
+					id: "308E99340E32A585"
+					item: { count: 1, id: "mekanismgenerators:control_rod_assembly" }
+					type: "item"
+				}
+			]
+			x: 11.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["3D2B4D9FD2086B9B"]
+			id: "5AEA705D6A64A982"
+			optional: true
+			rewards: [{
+				count: 10
+				id: "0CE03DEE00B7DC1F"
+				item: {
+					count: 1
+					id: "mekanismgenerators:fission_reactor_casing"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "1B78002379BEC2D5"
+					item: { count: 1, id: "minecraft:daylight_detector" }
+					type: "item"
+				}
+				{
+					id: "557074D4BFBAB82E"
+					item: { count: 1, id: "minecraft:redstone" }
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["5A088F8402230BA5"]
+			id: "03840E4C74731E0C"
+			rewards: [
+				{
+					count: 2
+					id: "186F9353FF867178"
+					item: {
+						count: 1
+						id: "mekanismgenerators:fission_fuel_assembly"
+					}
+					type: "item"
+				}
+				{
+					id: "72EB5C59BC2A05EA"
+					item: {
+						count: 1
+						id: "mekanismgenerators:control_rod_assembly"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5E5AC8ECB91FB450"
+				item: { count: 1, id: "cookingforblockheads:sink" }
+				type: "item"
+			}]
+			x: 15.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["5A088F8402230BA5"]
+			hide_dependent_lines: true
+			id: "17E2C05C48B03043"
+			optional: true
+			rewards: [
+				{
+					count: 2
+					id: "760D3CABBC4F83BD"
+					item: {
+						count: 1
+						id: "mekanismgenerators:fission_fuel_assembly"
+					}
+					type: "item"
+				}
+				{
+					id: "11A66EA238D05A24"
+					item: {
+						count: 1
+						id: "mekanismgenerators:control_rod_assembly"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [
+				{
+					count: 33L
+					id: "0BE623827F600CC7"
+					item: { count: 33, id: "mekanism:thermal_evaporation_block" }
+					type: "item"
+				}
+				{
+					id: "313D42E4ACB2CFE0"
+					item: { count: 1, id: "mekanism:thermal_evaporation_controller" }
+					type: "item"
+				}
+				{
+					id: "71F75D90BE8E965E"
+					item: { count: 1, id: "mekanism:thermal_evaporation_valve" }
+					type: "item"
+				}
+				{
+					id: "126B3D11A754B899"
+					item: { count: 1, id: "mekanism:electrolytic_separator" }
+					type: "item"
+				}
+			]
+			x: 15.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["7E3C84D7FCEC9D52"]
+			id: "593CB120B657126C"
+			rewards: [{
+				count: 3
+				id: "099D87D24F3719E1"
+				item: {
+					count: 1
+					id: "mekanism:radioactive_waste_barrel"
+				}
+				type: "item"
+			}]
+			shape: "circle"
+			size: 1.25d
+			tasks: [{
+				id: "067ED94826CF2346"
+				item: { count: 1, id: "mekanism:radioactive_waste_barrel" }
+				type: "item"
+			}]
+			x: 12.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["7E3C84D7FCEC9D52"]
+			id: "7B385FD1CBE02C85"
+			rewards: [
+				{
+					count: 16
+					id: "03CF08F17179AC69"
+					item: {
+						count: 1
+						id: "alltheores:steel_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "4175AC54AFE1DFCF"
+					item: {
+						count: 1
+						id: "alltheores:osmium_ingot"
+					}
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1.25d
+			tasks: [{
+				id: "3563498293CD3BF7"
+				item: { count: 1, id: "mekanism:basic_chemical_tank" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["7B385FD1CBE02C85"]
+			id: "67A9329C05F98633"
+			optional: true
+			rewards: [{
+				id: "51395C4E467986D4"
 				type: "xp"
 				xp: 100
 			}]
 			tasks: [{
-				id: "382818E289EC83A6"
-				title: "&3Fissile Fuel Production&r"
-				type: "checkmark"
-			}]
-			x: 4.5d
-			y: 2.5d
-		}
-		{
-			dependencies: ["3B81800EE6E77EF2"]
-			description: [
-				"You should have already made &2Sulfuric Acid&r for your Tier 4 Ore Processing facility, but here is a reminder on how to get it."
-				""
-				"Start by getting &eSulfur Dust&r either by crushing Sulfur from Thermal, or by mixing &bHydrogen Chloride&r with &3Gunpowder&r in a Chemical Dissolution Chamber."
-				""
-				"Take the Sulfur Dust and run it through a &9Chemical Oxidizer&r to get &eSulfur Dioxide&r. Combine that with &bOxygen&r in a Chemical Infuser to get &eSulfur Trioxide&r."
-				""
-				"Next, we'll combine &bWater Vapor&r with the Sulfur Trioxide to make &2Sulfuric Acid&r."
-			]
-			icon: "thermal:sulfur_dust"
-			id: "31EEE2875595F315"
-			progression_mode: "linear"
-			rewards: [{
-				id: "414A6E5BDC1A3B1E"
-				type: "xp"
-				xp: 25
-			}]
-			subtitle: "A Quick Recap"
-			tasks: [
-				{
-					id: "14A09EAF150777A3"
-					item: {
-						Count: 1b
-						id: "itemfilters:tag"
-						tag: {
-							value: "forge:dusts/sulfur"
-						}
-					}
-					title: "Sulfur Dust"
-					type: "item"
-				}
-				{
-					icon: "ftbquests:barrier"
-					id: "66C97246C3EEFB7C"
-					title: "Observe Sulfuric Acid in a Machine"
-					type: "custom"
-				}
-			]
-			title: "&2Sulfuric Acid"
-			x: 5.5d
-			y: 1.5d
-		}
-		{
-			dependencies: ["31EEE2875595F315"]
-			description: [
-				"Let's take our &2Sulfuric Acid&r and combine it with &bFluorite&r in a &9Chemical Dissolution Chamber&r to make &bHydrofluoric Acid&r."
-				""
-				"We're almost there!"
-			]
-			id: "187A3F5B41D1C923"
-			progression_mode: "linear"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "15D4F213191722DE"
-					table_id: 8364958827326577211L
-					type: "loot"
-				}
-				{
-					id: "5AEF7913046DC6FB"
-					type: "xp"
-					xp: 25
-				}
-			]
-			tasks: [
-				{
-					id: "452FBF76102210BD"
-					item: "mekanism:fluorite_gem"
-					type: "item"
-				}
-				{
-					id: "4F5A28143EFF4944"
-					item: "mekanism:chemical_dissolution_chamber"
-					type: "item"
-				}
-				{
-					icon: "ftbquests:barrier"
-					id: "510CE57C709D5A44"
-					title: "Observe Hydrofluoric Acid in a Machine"
-					type: "custom"
-				}
-			]
-			title: "&bHydrofluoric Acid"
-			x: 7.0d
-			y: 1.5d
-		}
-		{
-			dependencies: [
-				"187A3F5B41D1C923"
-				"3AF4E5D4839CEF8B"
-			]
-			description: ["Using another &9Chemical Infuser&r, we want to combine our &bHydrofluoric Acid&r with &eUranium Oxide&r to make &2Uranium Hexafluoride&r."]
-			id: "3663E93E169EF8E3"
-			progression_mode: "linear"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "0BF80354A244B222"
-					table_id: 8364958827326577211L
-					type: "loot"
-				}
-				{
-					id: "1AA24CF536807D83"
-					type: "xp"
-					xp: 50
-				}
-			]
-			tasks: [
-				{
-					id: "73C5F4AC41EE5123"
-					item: "mekanism:chemical_infuser"
-					type: "item"
-				}
-				{
-					icon: "ftbquests:barrier"
-					id: "05A215BE7EE2F35D"
-					title: "Observe Uranium Hexafluoride in a Machine"
-					type: "custom"
-				}
-			]
-			title: "&2Uranium Hexafluoride"
-			x: 8.0d
-			y: 2.5d
-		}
-		{
-			dependencies: ["3663E93E169EF8E3"]
-			description: [
-				"Once we have an &9Isotopic Centrifuge&r, we can run our &2Uranium Hexafluoride&r in and create &3Fissile Fuel&r!"
-				""
-				"See, that wasn't so bad was it?"
-			]
-			icon: "mekanism:isotopic_centrifuge"
-			id: "16A6C47E35F3B9D0"
-			progression_mode: "linear"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "7380540E354FD0C5"
-					table_id: 8364958827326577211L
-					type: "loot"
-				}
-				{
-					id: "04AA88C4D9B33E34"
-					type: "xp"
-					xp: 100
-				}
-			]
-			shape: "hexagon"
-			size: 1.5d
-			tasks: [
-				{
-					id: "3F2371FD486D4F0E"
-					item: "mekanism:isotopic_centrifuge"
-					type: "item"
-				}
-				{
-					icon: "ftbquests:barrier"
-					id: "4E04F8F091D18EA4"
-					title: "Observe Fissile Fuel in a Machine"
-					type: "custom"
-				}
-			]
-			title: "&3Fissile Fuel&r"
-			x: 9.5d
-			y: 2.5d
-		}
-		{
-			dependencies: ["3FFF9018DA2A2763"]
-			description: [
-				"Let's go through the checklist &oone more time&r to ensure we have everything ready to go before we boot it up:"
-				""
-				"1. Hazmat Suit On (safety first)"
-				"2. Water/coolant pumping into an input Port."
-				"3. Fissile Fuel pumping into an input Port."
-				"4. A Port set to output the Heated Coolant, either to a trashcan or an Industrial Turbine."
-				"5. A Port set to output Nuclear Waste leading to Radioactive Waste Barrels or machines to process it, or both!"
-				""
-				"If you're ready to go, hit that &eActivate&r button! You can also adjust the &3Burn Rate&r to produce more Nuclear Waste, but start slow."
-			]
-			icon: "engineersdecor:sign_radioactive"
-			id: "3591EAA8E397F992"
-			min_width: 300
-			rewards: [{
-				id: "5AC458A8C3D99B74"
-				type: "xp"
-				xp: 10
-			}]
-			shape: "square"
-			size: 1.5d
-			tasks: [{
-				id: "27709080B4B77B09"
-				title: "Ready To Go!"
-				type: "checkmark"
-			}]
-			title: "Booting Up The Reactor"
-			x: 9.5d
-			y: -1.5d
-		}
-		{
-			dependencies: ["16A6C47E35F3B9D0"]
-			description: [
-				"Once we start burning up Fissile Fuel in the reactor, we'll get heated &bCoolant&r and &8Nuclear Waste&r."
-				""
-				"This is where the Radiation kicks in. As long as it stays &osafely in some container or machine&r, you won't have any spills....right?"
-				""
-				"The best way to store any Radioactive substance is using a &2Radioactive Waste Barrel&r. These will safely store the waste, while slowly decaying the gas without causing a Radiation spill. You don't want your Nuclear Waste sitting in your Reactor as it causes it to produce more heat, so set a port to &aoutput Waste&r and ship it to a barrel!"
-				""
-				"&9Important Note&r: Breaking &nany&r machine, barrel, pipe, or &oanything&r that has a Radioactive gas inside of it &cwill cause a Radiation leak&r. That includes the products of Nuclear Waste, like Polonium or Plutonium."
-			]
-			id: "3FFF9018DA2A2763"
-			min_width: 300
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "408EC838E6C92754"
-					table_id: 8364958827326577211L
-					type: "loot"
-				}
-				{
-					id: "1EEAAB174D95E4B6"
-					type: "xp"
-					xp: 25
-				}
-			]
-			tasks: [{
-				count: 3L
-				id: "45EC7D8BA0CCFB07"
-				item: "mekanism:radioactive_waste_barrel"
+				id: "3B3CDE9FB2B79352"
+				item: { count: 1, id: "trashcans:ultimate_trash_can" }
 				type: "item"
 			}]
-			title: "Dealing with &8Nuclear Waste&r"
-			x: 9.5d
-			y: 0.5d
+			x: 9.0d
+			y: -9.0d
 		}
 		{
-			dependencies: ["3591EAA8E397F992"]
-			description: [
-				"&8Nuclear Waste&r can be sent into an Isotopic Centrifuge to create &9Plutonium&r."
-				""
-				"Sending the Plutonium into a Pressurized Reaction Chamber with some water and &7Fluorite Dust&r will give you &9Plutonium Pellets&r. These are used to make end game materials!"
-				""
-				"Note: This will also create a byproduct of &7Spent Nuclear Waste&r, which needs to be pumped into a Waste Barrel for storage."
-			]
-			id: "2E9FC7DC2AC6FD8E"
+			dependencies: ["593CB120B657126C"]
+			id: "5194A067BEA98E79"
+			rewards: [{
+				id: "690B0C794ECDBEE0"
+				item: {
+					components: {
+						"mekanism:chemicals": {
+							chemical_tanks: [{
+								amount: 64000L
+								id: "mekanism:fissile_fuel"
+							}]
+						}
+						"mekanism:owner": [I;
+							1448333235
+							-1957933073
+							-1931931567
+							1246553530
+						]
+					}
+					count: 1
+					id: "mekanism:basic_chemical_tank"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "76E0D8A5EB11FB71"
+				item: { count: 1, id: "mekanism:isotopic_centrifuge" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["5194A067BEA98E79"]
+			hide_dependent_lines: true
+			id: "20054D077AFE3F56"
 			rewards: [
 				{
-					exclude_from_claim_all: true
-					id: "291CFA4139F71658"
-					table_id: 8364958827326577211L
-					type: "loot"
+					count: 3
+					id: "014EFD36AEC93A3A"
+					item: {
+						count: 1
+						id: "mekanism:pellet_plutonium"
+					}
+					type: "item"
 				}
 				{
-					id: "353657D187263DAA"
-					type: "xp"
-					xp: 100
+					id: "28EE5C3BB49CFFD4"
+					type: "xp_levels"
+					xp_levels: 10
 				}
 			]
+			shape: "diamond"
+			size: 1.75d
 			tasks: [{
-				id: "6B40312EE7C8875D"
-				item: "mekanism:pellet_plutonium"
+				id: "4A89F09182DA11F0"
+				item: { count: 1, id: "mekanism:pellet_plutonium" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["4BAF44FCA0894DE8"]
+			hide_dependent_lines: true
+			id: "438F734D16DA9638"
+			rewards: [
+				{
+					count: 3
+					id: "230234980349F369"
+					item: {
+						count: 1
+						id: "mekanism:pellet_polonium"
+					}
+					type: "item"
+				}
+				{
+					id: "2BF96179A943F1CF"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			shape: "diamond"
+			size: 1.75d
+			tasks: [{
+				id: "7BAFAA3EE0F162E3"
+				item: { count: 1, id: "mekanism:pellet_polonium" }
+				type: "item"
+			}]
+			x: 12.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["438F734D16DA9638"]
+			hide_dependency_lines: true
+			id: "4E18E28BDF6B7983"
+			rewards: [{
+				count: 8
+				id: "702026DD60AC9E69"
+				item: {
+					count: 1
+					id: "mekanismgenerators:fusion_reactor_frame"
+				}
+				type: "item"
+			}]
+			shape: "pentagon"
+			size: 1.1d
+			tasks: [{
+				id: "7A8FCB8C69FECF2F"
+				item: { count: 1, id: "mekanismgenerators:fusion_reactor_port" }
+				type: "item"
+			}]
+			x: 18.5d
+			y: -16.0d
+		}
+		{
+			id: "5B18676A77CD6069"
+			optional: true
+			rewards: [
+				{
+					count: 4
+					id: "07F6B3F548879A26"
+					item: {
+						count: 1
+						id: "mekanism:teleportation_core"
+					}
+					type: "item"
+				}
+				{
+					id: "1E438DE1052A5CCC"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				id: "6B1CE2F64552C75F"
+				item: { count: 1, id: "mekanism:qio_drive_array" }
+				type: "item"
+			}]
+			x: 15.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5B18676A77CD6069"]
+			id: "011D8CADA29C9C70"
+			optional: true
+			rewards: [{
+				count: 4
+				id: "7384A181AFF9772E"
+				item: {
+					count: 1
+					id: "mekanism:qio_drive_base"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "11151860F09B78E1"
+				item: { components: { "ftbfiltersystem:filter": "or(item(mekanism:qio_drive_base)item(mekanism:qio_drive_hyper_dense)item(mekanism:qio_drive_time_dilating)item(mekanism:qio_drive_supermassive))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 14.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5B18676A77CD6069"]
+			id: "53E929BF89209CFC"
+			optional: true
+			rewards: [
+				{
+					count: 2
+					id: "333D714483A091E6"
+					item: {
+						count: 1
+						id: "mekanism:qio_exporter"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "4B4872B2C369FF45"
+					item: {
+						count: 1
+						id: "mekanism:qio_importer"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "119A544C4E895CFC"
+					item: { count: 1, id: "mekanism:qio_exporter" }
+					type: "item"
+				}
+				{
+					id: "0A383B138F6AD6FA"
+					item: { count: 1, id: "mekanism:qio_importer" }
+					type: "item"
+				}
+			]
+			x: 16.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["13A5748DF69D832E"]
+			id: "7310BBC4A90EDA9D"
+			optional: true
+			rewards: [{
+				id: "3129E411B3AF960B"
+				item: {
+					count: 1
+					id: "mekanism:qio_dashboard"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7DC8D7D5F195BE0F"
+				item: { count: 1, id: "mekanism:portable_qio_dashboard" }
+				type: "item"
+			}]
+			x: 15.5d
+			y: -3.0d
+		}
+		{
+			id: "6A1174845810C7A1"
+			rewards: [{
+				count: 16
+				id: "06086F015331A666"
+				item: {
+					count: 1
+					id: "mekanism:hdpe_sheet"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "221507726A43C981"
+				item: { count: 1, id: "mekanism:modification_station" }
 				type: "item"
 			}]
 			x: 7.5d
-			y: -1.5d
+			y: -19.0d
 		}
 		{
-			dependencies: ["3591EAA8E397F992"]
-			description: [
-				"Pumping Nuclear Waste into a &9Solar Neutron Activator&r will give you &dPolonium&r. "
-				""
-				"Run the Polonium through a Pressurized Reaction Chamber with some Fluorite Dust and you'll get &9Polonium Pellets&r. You will need a good bit of these for the future."
-				""
-				"Note: This will also create a byproduct of &7Spent Nuclear Waste&r, which needs to be pumped into a Waste Barrel for storage."
-			]
-			id: "1FAAF8216CDC3AC6"
+			dependencies: ["50F23B2688D7E699"]
+			id: "7864C8F2CBC910CB"
 			rewards: [
 				{
-					exclude_from_claim_all: true
-					id: "1CEED939AAFB06F3"
-					table_id: 8364958827326577211L
-					type: "loot"
-				}
-				{
-					id: "316FC7C98CC22E11"
-					type: "xp"
-					xp: 100
-				}
-			]
-			tasks: [{
-				id: "38A344B697C93B3B"
-				item: "mekanism:pellet_polonium"
-				type: "item"
-			}]
-			x: 8.5d
-			y: -3.5d
-		}
-		{
-			dependencies: [
-				"2E9FC7DC2AC6FD8E"
-				"1FAAF8216CDC3AC6"
-			]
-			description: [
-				"The &dSupercritical Phase Shifter&r (SPS for short) is another multiblock structure used to infuse Polonium with large amounts of power to create &dAntimatter&r gas, which can be crystallized into pellets."
-				""
-				"To build the SPS, you'll need to make a total of 72 &9SPS Casings&r (60 for the build, 12 to make the ports), 3 &9SPS Ports&r, 122 Reactor Glass, and one other item we'll talk about in the next quest. Let's get the materials first!"
-			]
-			id: "068728DE3B9B13C3"
-			progression_mode: "linear"
-			rewards: [
-				{
-					command: "/create ponder mekanism:sps_casing"
-					icon: "ftbquests:barrier"
-					id: "5B0D10312C328B83"
-					title: "Click Me to Learn How To Build!"
-					type: "command"
-				}
-				{
-					id: "34DCA3CB7F03E0E4"
-					item: "mekanism:sps_port"
+					id: "1004C227F8EF7170"
+					item: {
+						components: {
+							"mekanism:energy": {
+								energy_containers: [L;64000000L]
+							}
+						}
+						count: 1
+						id: "mekanism:elite_energy_cube"
+					}
 					type: "item"
 				}
 				{
-					exclude_from_claim_all: true
-					id: "1E091230BBDA9D73"
-					table_id: 8364958827326577211L
-					type: "loot"
-				}
-				{
-					id: "7805E5E238BB92F1"
-					type: "xp"
-					xp: 100
-				}
-			]
-			shape: "hexagon"
-			size: 1.5d
-			tasks: [
-				{
-					count: 60L
-					id: "63C9D54A0F55BA9B"
-					item: "mekanism:sps_casing"
+					count: 4
+					id: "5A9BC0912A63CA1B"
+					item: {
+						count: 1
+						id: "mekanism:module_base"
+					}
 					type: "item"
 				}
 				{
-					count: 122L
-					id: "6236D6215419A2EF"
-					item: "mekanismgenerators:reactor_glass"
-					type: "item"
-				}
-				{
-					count: 3L
-					id: "769C396EE20CD89D"
-					item: "mekanism:sps_port"
-					type: "item"
-				}
-			]
-			title: "&dSupercritical Phase Shifter"
-			x: 6.0d
-			y: -3.5d
-		}
-		{
-			dependencies: ["1FAAF8216CDC3AC6"]
-			description: [
-				"You've probably heard people talk about how the &cFusion Reactor&r is the best power source in the pack. They are right."
-				""
-				"Once activated, the Reactor can push out up to 200MRF/t with the right setup. It can also be cooled with water to produce steam, which can go into an &9Industrial Turbine&r to make even more power."
-				""
-				"To build the Fusion Reactor, we need to follow a simple pattern. Each face will look like this:"
-				"{image:atm:textures/questpics/mek/fusion_pattern.png width:175 height:175 align:1}"
-				""
-				"For the top, we want to replace the middle block with the Fusion Reactor Controller."
-				""
-				"For the ports, you can replace any of the Reactor Glass on the sides. For this setup, we'll need two ports to input &cDeuterium&r and &eTritium&r, then a port to output power. "
-				""
-				"{image:atm:textures/questpics/mek/completed_fusion_reactor.png width:175 height:150 align:1}"
-			]
-			id: "0152C49AB74B9D32"
-			min_width: 500
-			progression_mode: "linear"
-			rewards: [
-				{
-					command: "/say Hi, @p!/create ponder mekanismgenerators:fusion_reactor_frame"
-					icon: "ftbquests:barrier"
-					id: "7A58D77A4EDACC40"
-					title: "Click Me To See How To Build!"
-					type: "command"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "102EAA274E939BB1"
-					table_id: 8364958827326577211L
-					type: "loot"
-				}
-				{
-					id: "73F01F26D46493C6"
-					type: "xp"
-					xp: 100
+					id: "2FEBE93A5D7D762D"
+					type: "xp_levels"
+					xp_levels: 5
 				}
 			]
 			shape: "rsquare"
-			size: 2.0d
-			subtitle: "The Best Power Source In The Pack"
+			tasks: [{
+				id: "6F22D8840106E3CF"
+				item: { count: 1, id: "mekanism:mekasuit_helmet" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: -20.5d
+		}
+		{
+			dependencies: ["50F23B2688D7E699"]
+			id: "6C1F7A0B330B3F42"
+			rewards: [
+				{
+					id: "4526D41357DC7E4B"
+					item: {
+						components: {
+							"mekanism:energy": {
+								energy_containers: [L;64000000L]
+							}
+						}
+						count: 1
+						id: "mekanism:elite_energy_cube"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "6EB17E62DDC89F12"
+					item: {
+						count: 1
+						id: "mekanism:module_base"
+					}
+					type: "item"
+				}
+				{
+					id: "3B6CF1FBEC51C36D"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "62587F3282ED0BEB"
+				item: { count: 1, id: "mekanism:mekasuit_bodyarmor" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: -19.5d
+		}
+		{
+			dependencies: ["50F23B2688D7E699"]
+			id: "56DB53F255100136"
+			rewards: [
+				{
+					id: "70CE014D24D6AA7C"
+					item: {
+						components: {
+							"mekanism:energy": {
+								energy_containers: [L;64000000L]
+							}
+						}
+						count: 1
+						id: "mekanism:elite_energy_cube"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "376EC1FBB00C34FF"
+					item: {
+						count: 1
+						id: "mekanism:module_base"
+					}
+					type: "item"
+				}
+				{
+					id: "3DC6B40621055C6A"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "6791E5C6FFEBD48D"
+				item: { count: 1, id: "mekanism:mekasuit_pants" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: -18.5d
+		}
+		{
+			dependencies: ["50F23B2688D7E699"]
+			id: "6D7D0A5313284B53"
+			rewards: [
+				{
+					id: "0B92358298DFBBA6"
+					item: {
+						components: {
+							"mekanism:energy": {
+								energy_containers: [L;64000000L]
+							}
+						}
+						count: 1
+						id: "mekanism:elite_energy_cube"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "28FDEC8FB716469A"
+					item: {
+						count: 1
+						id: "mekanism:module_base"
+					}
+					type: "item"
+				}
+				{
+					id: "3273028580E03184"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "2D08ECF0476A96AC"
+				item: { count: 1, id: "mekanism:mekasuit_boots" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: -17.5d
+		}
+		{
+			dependencies: ["008E65AF545A706E"]
+			id: "50F23B2688D7E699"
+			rewards: [
+				{
+					count: 2
+					id: "104765330BD7F89B"
+					item: {
+						count: 1
+						id: "mekanism:pellet_antimatter"
+					}
+					type: "item"
+				}
+				{
+					id: "5787720F79BBBC03"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+			]
+			shape: "diamond"
+			size: 1.75d
+			tasks: [{
+				id: "2CE676AC2AF13098"
+				item: { count: 1, id: "mekanism:pellet_antimatter" }
+				type: "item"
+			}]
+			x: 11.5d
+			y: -20.0d
+		}
+		{
+			dependencies: ["50F23B2688D7E699"]
+			hide_until_deps_visible: true
+			id: "4B2835706B593E9A"
+			rewards: [{
+				id: "2098D142B403D10B"
+				item: {
+					count: 1
+					id: "mekanism:pellet_antimatter"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "74C1623469AD3952"
+				item: { count: 1, id: "mekanism:antiprotonic_nucleosynthesizer" }
+				type: "item"
+			}]
+			x: 11.5d
+			y: -21.5d
+		}
+		{
+			dependencies: ["05DA7F48E2A1B77F"]
+			id: "3B936CA3F0F7B26B"
+			optional: true
+			rewards: [{
+				id: "227A8AC1810E169B"
+				item: {
+					count: 1
+					id: "mekanism:qio_drive_hyper_dense"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3DB36E9E622A556B"
+				item: { count: 1, id: "mekanism:digital_miner" }
+				type: "item"
+			}]
+			x: 13.0d
+			y: -3.0d
+		}
+		{
+			id: "16DDAE318535D0F9"
+			rewards: [
+				{
+					id: "0FE45B3DBFB37EF0"
+					item: {
+						count: 1
+						id: "mekanism:chargepad"
+					}
+					type: "item"
+				}
+				{
+					id: "6253FFACF61E82E1"
+					item: {
+						components: {
+							"mekanism:energy": {
+								energy_containers: [L;4000000L]
+							}
+						}
+						count: 1
+						id: "mekanism:basic_energy_cube"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "162674215F707F8E"
+				item: { count: 1, id: "mekanism:atomic_disassembler" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["16DDAE318535D0F9"]
+			id: "14385D3D359224BC"
+			rewards: [{
+				count: 2
+				id: "207DD677ABE76141"
+				item: {
+					count: 1
+					id: "mekanism:module_excavation_escalation_unit"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "337468CF35CF29DB"
+				item: { count: 1, id: "mekanism:meka_tool" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: -3.0d
+		}
+		{
+			id: "05DA7F48E2A1B77F"
+			optional: true
+			rewards: [{
+				id: "22C8811103D47CEE"
+				item: {
+					count: 1
+					id: "mekanism:chargepad"
+				}
+				type: "item"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "37CB3E85DE5321EA"
+				item: { count: 1, id: "mekanism:robit" }
+				type: "item"
+			}]
+			x: 13.0d
+			y: -2.0d
+		}
+		{
+			id: "55702BE0151D33FE"
+			rewards: [{
+				count: 8
+				id: "57107C46E0B4778C"
+				item: {
+					count: 1
+					id: "mekanism:induction_casing"
+				}
+				type: "item"
+			}]
+			shape: "pentagon"
+			tasks: [{
+				id: "4BC8C6CD95C13721"
+				item: { count: 1, id: "mekanism:induction_port" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			id: "298A7BED5C2C7582"
+			rewards: [{
+				count: 2
+				id: "49692794F83384CF"
+				item: {
+					count: 1
+					id: "mekanism:advanced_induction_cell"
+				}
+				type: "item"
+			}]
+			shape: "pentagon"
+			tasks: [{
+				id: "151AF2F49AAEBBDA"
+				item: { components: { "ftbfiltersystem:filter": "or(item(mekanism:basic_induction_cell)item(mekanism:advanced_induction_cell)item(mekanism:elite_induction_cell)item(mekanism:ultimate_induction_cell))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: -1.0d
+		}
+		{
+			id: "6B3BD54A34EB02C2"
+			rewards: [{
+				count: 2
+				id: "1F1A839794C5EB23"
+				item: {
+					count: 1
+					id: "mekanism:advanced_induction_provider"
+				}
+				type: "item"
+			}]
+			shape: "pentagon"
+			tasks: [{
+				id: "496C4FDD2515EB24"
+				item: { components: { "ftbfiltersystem:filter": "or(item(mekanism:basic_induction_provider)item(mekanism:advanced_induction_provider)item(mekanism:elite_induction_provider)item(mekanism:ultimate_induction_provider))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"55702BE0151D33FE"
+				"6B3BD54A34EB02C2"
+				"298A7BED5C2C7582"
+			]
+			id: "54E0B946BAC13654"
+			rewards: [
+				{
+					count: 10
+					id: "75895272C72BBDF7"
+					item: {
+						count: 1
+						id: "mekanism:induction_casing"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "7946863F2067C980"
+					item: {
+						count: 1
+						id: "mekanism:dust_lithium"
+					}
+					type: "item"
+				}
+				{
+					id: "6FB33B55A75E4B51"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			shape: "octagon"
+			size: 1.5d
 			tasks: [
 				{
-					id: "4005EDF7A97FD97D"
-					item: "mekanismgenerators:fusion_reactor_controller"
+					count: 32L
+					id: "517FC41DE11BB012"
+					item: { count: 32, id: "mekanism:induction_casing" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "5CD030B6B8A747B6"
+					item: { count: 2, id: "mekanism:induction_port" }
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"438F734D16DA9638"
+				"20054D077AFE3F56"
+			]
+			id: "7846B7FFC3DD85C5"
+			rewards: [
+				{
+					count: 2
+					id: "6906BE44B1A45829"
+					item: {
+						count: 1
+						id: "mekanism:sps_port"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "3D3D36354DB42A63"
+					item: {
+						count: 1
+						id: "mekanism:sps_casing"
+					}
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			size: 1.25d
+			tasks: [{
+				id: "179A7908B0481D37"
+				item: { count: 1, id: "mekanism:sps_port" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: -16.5d
+		}
+		{
+			dependencies: ["438F734D16DA9638"]
+			id: "3CCBE9BBCA8ADA38"
+			rewards: [{
+				count: 4
+				id: "7F132D3999365023"
+				item: {
+					count: 1
+					id: "mekanism:sps_casing"
+				}
+				type: "item"
+			}]
+			shape: "pentagon"
+			size: 1.25d
+			tasks: [{
+				id: "5AC7BCDBEC2CA34A"
+				item: { count: 1, id: "mekanism:supercharged_coil" }
+				type: "item"
+			}]
+			x: 12.5d
+			y: -16.5d
+		}
+		{
+			dependencies: [
+				"7846B7FFC3DD85C5"
+				"3CCBE9BBCA8ADA38"
+			]
+			id: "008E65AF545A706E"
+			rewards: [
+				{
+					id: "437C6A1F35D712B5"
+					item: {
+						components: {
+							"mekanism:energy": {
+								energy_containers: [L;256000000L]
+							}
+						}
+						count: 1
+						id: "mekanism:ultimate_energy_cube"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "378F455AE8FE9BA2"
+					item: {
+						count: 1
+						id: "mekanism:elite_induction_cell"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "0306A871DAEA7580"
+					item: {
+						count: 1
+						id: "mekanism:elite_induction_provider"
+					}
+					type: "item"
+				}
+				{
+					id: "29EE89C4A23638AC"
+					item: {
+						components: {
+							"mekanism:chemicals": {
+								chemical_tanks: [{
+									amount: 9L
+									id: "mekanism:antimatter"
+								}]
+							}
+							"mekanism:owner": [I;
+								1448333235
+								-1957933073
+								-1931931567
+								1246553530
+							]
+						}
+						count: 1
+						id: "mekanism:ultimate_chemical_tank"
+					}
+					type: "item"
+				}
+				{
+					id: "7E73902DDCD128C7"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+			]
+			shape: "octagon"
+			size: 2.25d
+			tasks: [
+				{
+					count: 60L
+					id: "235027FF75455CEB"
+					item: { count: 1, id: "mekanism:sps_casing" }
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "35D437CE90158B46"
+					item: { count: 64, id: "mekanism:structural_glass" }
+					type: "item"
+				}
+				{
+					count: 58L
+					id: "7A7018026E464DF3"
+					item: { count: 58, id: "mekanism:structural_glass" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "7D8EB15A3DB21BFC"
+					item: { count: 4, id: "mekanism:sps_port" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "21E33C57C5913965"
+					item: { count: 2, id: "mekanism:supercharged_coil" }
+					type: "item"
+				}
+			]
+			x: 11.5d
+			y: -18.0d
+		}
+		{
+			dependencies: ["593CB120B657126C"]
+			id: "4BAF44FCA0894DE8"
+			rewards: [{
+				id: "5D1116CD24DFE940"
+				item: {
+					components: {
+						"mekanism:chemicals": {
+							chemical_tanks: [{
+								amount: 64000L
+								id: "mekanism:fissile_fuel"
+							}]
+						}
+						"mekanism:owner": [I;
+							1448333235
+							-1957933073
+							-1931931567
+							1246553530
+						]
+					}
+					count: 1
+					id: "mekanism:basic_chemical_tank"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4605DCE4DAB1F52A"
+				item: { count: 1, id: "mekanism:solar_neutron_activator" }
+				type: "item"
+			}]
+			x: 12.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["593CB120B657126C"]
+			id: "2DC4446A644A4079"
+			optional: true
+			rewards: [{
+				id: "50B39DB9A0BAC888"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "472CC67DC0A9B198"
+					item: { count: 1, id: "mekanism:hazmat_mask" }
+					type: "item"
+				}
+				{
+					id: "1ADF38997F6DA60B"
+					item: { count: 1, id: "mekanism:hazmat_gown" }
+					type: "item"
+				}
+				{
+					id: "74BA87D346B753E5"
+					item: { count: 1, id: "mekanism:hazmat_pants" }
+					type: "item"
+				}
+				{
+					id: "39561A9A902D83F0"
+					item: { count: 1, id: "mekanism:hazmat_boots" }
+					type: "item"
+				}
+			]
+			x: 14.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["5B18676A77CD6069"]
+			id: "13A5748DF69D832E"
+			optional: true
+			rewards: [
+				{
+					count: 4
+					id: "6E530E3EFB7DEBE7"
+					item: {
+						count: 1
+						id: "mekanism:alloy_infused"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "368357600C1322F8"
+					item: {
+						count: 1
+						id: "mekanism:alloy_reinforced"
+					}
+					type: "item"
+				}
+				{
+					id: "62183402AD52AE35"
+					item: {
+						count: 1
+						id: "mekanism:alloy_atomic"
+					}
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			tasks: [{
+				id: "454D07A4AE1D66DD"
+				item: { count: 1, id: "mekanism:qio_dashboard" }
+				type: "item"
+			}]
+			x: 15.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1C87535D3CDCDA5F"]
+			id: "0306D25C7407FE88"
+			rewards: [{
+				count: 8
+				id: "7DEDD56909E2B4DA"
+				item: {
+					count: 1
+					id: "mekanismgenerators:fusion_reactor_frame"
+				}
+				type: "item"
+			}]
+			shape: "pentagon"
+			size: 1.1d
+			tasks: [{
+				id: "2EFE0D22FDE2E62D"
+				item: { count: 1, id: "mekanismgenerators:laser_focus_matrix" }
+				type: "item"
+			}]
+			x: 20.0d
+			y: -17.5d
+		}
+		{
+			dependencies: ["4926C95DD02F1410"]
+			id: "1C87535D3CDCDA5F"
+			rewards: [
+				{
+					count: 2
+					id: "561BCAB252DFA6FA"
+					item: {
+						count: 1
+						id: "mekanism:laser_amplifier"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "1272480D3DA4CB61"
+					item: {
+						count: 1
+						id: "mekanism:laser"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2B63C860A004A859"
+				item: { count: 1, id: "mekanism:laser_amplifier" }
+				type: "item"
+			}]
+			x: 21.5d
+			y: -17.0d
+		}
+		{
+			id: "4926C95DD02F1410"
+			rewards: [{
+				count: 2
+				id: "5AD407A3503FF999"
+				item: {
+					count: 1
+					id: "mekanism:laser"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "28117DB85E6D7298"
+				item: { count: 1, id: "mekanism:laser" }
+				type: "item"
+			}]
+			x: 21.5d
+			y: -18.0d
+		}
+		{
+			id: "40E8940C92668D4F"
+			rewards: [
+				{
+					count: 5
+					id: "50FFE40278E30E0F"
+					item: {
+						count: 1
+						id: "mekanism:electric_pump"
+					}
+					type: "item"
+				}
+				{
+					id: "39E654180C19EC88"
+					item: {
+						components: {
+							"mekanism:chemicals": {
+								chemical_tanks: [{
+									amount: 8000L
+									id: "mekanismgenerators:deuterium"
+								}]
+							}
+							"mekanism:owner": [I;
+								1448333235
+								-1957933073
+								-1931931567
+								1246553530
+							]
+							"mekanism:side_config": {
+								config: {
+									chemicals: {
+										side: {
+											back: "input"
+											bottom: "input"
+											front: "output"
+											left: "input"
+											right: "input"
+											top: "input"
+										}
+									}
+									items: {
+										side: {
+											back: "input"
+											bottom: "input"
+											front: "output"
+											left: "input"
+											right: "input"
+											top: "input"
+										}
+									}
+								}
+							}
+						}
+						count: 1
+						id: "mekanism:basic_chemical_tank"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "533879E84DC7CAEB"
+					item: { count: 1, id: "mekanism:electric_pump" }
+					type: "item"
+				}
+				{
+					id: "724532DF134A4C9D"
+					item: { count: 1, id: "mekanism:upgrade_filter" }
+					type: "item"
+				}
+				{
+					id: "43063168AB07D6FC"
+					item: { count: 1, id: "mekanism:electrolytic_separator" }
+					type: "item"
+				}
+			]
+			x: 15.5d
+			y: -18.0d
+		}
+		{
+			id: "369DADE3B3D8416F"
+			rewards: [
+				{
+					count: 20
+					id: "0EAFDEECDAA2216C"
+					item: {
+						count: 1
+						id: "mekanism:thermal_evaporation_block"
+					}
+					type: "item"
+				}
+				{
+					id: "04D83AA40F859F85"
+					item: {
+						components: {
+							"mekanism:chemicals": {
+								chemical_tanks: [{
+									amount: 8000L
+									id: "mekanismgenerators:tritium"
+								}]
+							}
+							"mekanism:owner": [I;
+								1448333235
+								-1957933073
+								-1931931567
+								1246553530
+							]
+							"mekanism:side_config": {
+								config: {
+									chemicals: {
+										side: {
+											back: "input"
+											bottom: "input"
+											front: "output"
+											left: "input"
+											right: "input"
+											top: "input"
+										}
+									}
+									items: {
+										side: {
+											back: "input"
+											bottom: "input"
+											front: "output"
+											left: "input"
+											right: "input"
+											top: "input"
+										}
+									}
+								}
+							}
+						}
+						count: 1
+						id: "mekanism:basic_chemical_tank"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [
+				{
+					count: 33L
+					id: "555D6EE9775EC7FA"
+					item: { count: 33, id: "mekanism:thermal_evaporation_block" }
+					type: "item"
+				}
+				{
+					id: "70112973D7C24BD3"
+					item: { count: 1, id: "mekanism:thermal_evaporation_controller" }
+					type: "item"
+				}
+				{
+					id: "025EB7AD11DBB865"
+					item: { count: 1, id: "mekanism:thermal_evaporation_valve" }
+					type: "item"
+				}
+				{
+					id: "44CA11954DBDD9EF"
+					item: { count: 1, id: "mekanism:rotary_condensentrator" }
+					type: "item"
+				}
+				{
+					id: "569325A85FB1C540"
+					item: { count: 1, id: "mekanism:solar_neutron_activator" }
+					type: "item"
+				}
+			]
+			x: 15.5d
+			y: -17.0d
+		}
+		{
+			dependencies: [
+				"369DADE3B3D8416F"
+				"40E8940C92668D4F"
+			]
+			id: "7177653B736AB10E"
+			rewards: [{
+				id: "6BA54F0398F49E5D"
+				item: {
+					components: {
+						"mekanism:chemicals": {
+							chemical_tanks: [{
+								amount: 4000L
+								id: "mekanismgenerators:fusion_fuel"
+							}]
+						}
+						"mekanism:owner": [I;
+							1448333235
+							-1957933073
+							-1931931567
+							1246553530
+						]
+						"mekanism:side_config": {
+							config: {
+								chemicals: {
+									side: {
+										back: "input"
+										bottom: "input"
+										front: "output"
+										left: "input"
+										right: "input"
+										top: "input"
+									}
+								}
+								items: {
+									side: {
+										back: "input"
+										bottom: "input"
+										front: "output"
+										left: "input"
+										right: "input"
+										top: "input"
+									}
+								}
+							}
+						}
+					}
+					count: 1
+					id: "mekanism:basic_chemical_tank"
+				}
+				type: "item"
+			}]
+			shape: "pentagon"
+			size: 1.1d
+			tasks: [
+				{
+					id: "49FD3E265DCAA577"
+					item: { count: 1, id: "mekanism:chemical_infuser" }
+					type: "item"
+				}
+				{
+					id: "534A2589DF835EDE"
+					item: { components: { "mekanism:chemicals": { chemical_tanks: [{ amount: 10L, id: "mekanismgenerators:fusion_fuel" }] } }, count: 1, id: "mekanismgenerators:hohlraum" }
+					type: "item"
+				}
+			]
+			x: 17.0d
+			y: -17.5d
+		}
+		{
+			dependencies: [
+				"0306D25C7407FE88"
+				"7177653B736AB10E"
+				"4E18E28BDF6B7983"
+			]
+			id: "3561A33758A1E8C3"
+			rewards: [
+				{
+					count: 4
+					id: "402AA367D93747DB"
+					item: {
+						count: 1
+						id: "mekanism:elite_induction_provider"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "5F9B00328053117D"
+					item: {
+						count: 1
+						id: "mekanism:elite_induction_cell"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "51F0E8D979CE14E2"
+					item: {
+						count: 1
+						id: "mekanism:ultimate_energy_cube"
+					}
+					type: "item"
+				}
+				{
+					id: "319CA3483A4E93BF"
+					item: {
+						components: {
+							"mekanism:chemicals": {
+								chemical_tanks: [{
+									amount: 20000L
+									id: "mekanismgenerators:fusion_fuel"
+								}]
+							}
+							"mekanism:owner": [I;
+								1448333235
+								-1957933073
+								-1931931567
+								1246553530
+							]
+							"mekanism:side_config": {
+								config: {
+									chemicals: {
+										side: {
+											back: "input"
+											bottom: "input"
+											front: "output"
+											left: "input"
+											right: "input"
+											top: "input"
+										}
+									}
+									items: {
+										side: {
+											back: "input"
+											bottom: "input"
+											front: "output"
+											left: "input"
+											right: "input"
+											top: "input"
+										}
+									}
+								}
+							}
+						}
+						count: 1
+						id: "mekanism:basic_chemical_tank"
+					}
+					type: "item"
+				}
+				{
+					id: "66D8218A17480ACA"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+			]
+			shape: "octagon"
+			size: 1.75d
+			tasks: [
+				{
+					id: "3F6D20EC9FF77E13"
+					item: { count: 1, id: "mekanismgenerators:fusion_reactor_controller" }
+					type: "item"
+				}
+				{
+					id: "1B4A8602A625C107"
+					item: { count: 1, id: "mekanismgenerators:laser_focus_matrix" }
 					type: "item"
 				}
 				{
 					count: 36L
-					id: "6E680D259F45AF80"
-					item: "mekanismgenerators:fusion_reactor_frame"
-					type: "item"
-				}
-				{
-					count: 3L
-					id: "2369D4585A3BDCCC"
-					item: "mekanismgenerators:fusion_reactor_port"
+					id: "4D34D952030AD6BE"
+					item: { count: 1, id: "mekanismgenerators:fusion_reactor_frame" }
 					type: "item"
 				}
 				{
 					count: 25L
-					id: "554C67BA24832AB4"
-					item: "mekanismgenerators:reactor_glass"
-					type: "item"
-				}
-			]
-			title: "The &cFusion Reactor&r"
-			x: 8.5d
-			y: -7.0d
-		}
-		{
-			dependencies: ["068728DE3B9B13C3"]
-			description: [
-				"The &9Supercharged Coil&r is placed on an SPS Port in the center of two faces, like the image below. When given power, these will supercharge Polonium into Antimatter. Only 1 is required, but you can use 2 if you want."
-				""
-				"To produce 1mb of Antimatter, you need 400MRF. If you haven't started making a &cFusion Reactor&r, now's a good time to make it!"
-				""
-				"{image:atm:textures/questpics/mek/sps_coils.png width:200 height:125 align:1}"
-			]
-			id: "2331FCDD2F2B709A"
-			min_width: 300
-			rewards: [
-				{
-					id: "7BC5630B6210C074"
-					item: "mekanism:supercharged_coil"
-					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "448388A7D1EF49D7"
-					table_id: 8364958827326577211L
-					type: "loot"
-				}
-				{
-					id: "3C4D31DF8C934DC9"
-					type: "xp"
-					xp: 100
-				}
-			]
-			tasks: [{
-				id: "48A70F1D73DE5E37"
-				item: "mekanism:supercharged_coil"
-				type: "item"
-			}]
-			title: "The Supercharged Coils"
-			x: 6.0d
-			y: -5.5d
-		}
-		{
-			dependencies: ["2331FCDD2F2B709A"]
-			description: [
-				"With all of the gathered blocks, it's time to build this thing. Below is a text guide, or you can watch the Ponder!"
-				""
-				"The SPS will be 7x7 when built, but it isn't a cube. It follows a simple pattern, which you can follow the images below as a build guide. The pattern looks like this: "
-				""
-				"{image:atm:textures/questpics/mek/basic_sps_shape.png width:250 height:225 align:1}"
-				""
-				"Each side, including the bottom and top, will follow this pattern. The Supercharged Coils should be placed across from each other in the center of their respective sides, and the remaining two ports will be used to pump in Polonium, and pump out Antimatter Gas."
-				""
-				"Here is the completed structure below: "
-				""
-				"{image:atm:textures/questpics/mek/sps_complete.png width:300 height:250 align:1}"
-			]
-			id: "2B3F2F470E06BC40"
-			min_width: 350
-			progression_mode: "linear"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "08B5E0576E25FAAD"
-					table_id: 8364958827326577211L
-					type: "loot"
-				}
-				{
-					id: "7D3868B320D82382"
-					type: "xp"
-					xp: 250
-				}
-			]
-			shape: "square"
-			tasks: [{
-				icon: "mekanism:sps_casing"
-				id: "2A13A1B1A85C2981"
-				title: "Observe a completed SPS"
-				type: "custom"
-			}]
-			title: "Build the SPS!"
-			x: 6.0d
-			y: -7.0d
-		}
-		{
-			dependencies: ["2B3F2F470E06BC40"]
-			description: [
-				"After zapping away trillions of power in the SPS, we can finally create &dAntimatter Pellets&r."
-				""
-				"Run the Antimatter Gas you get from the SPS into a Chemical Crystallizer and you'll get 1 Antimatter Pellet for every 1,000mb you make."
-			]
-			id: "00EFC7B327E79076"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "18DC85F7E60E6427"
-					table_id: 5196609362437981520L
-					type: "loot"
-				}
-				{
-					id: "377C6F58639E8469"
-					type: "xp"
-					xp: 1000
-				}
-			]
-			shape: "gear"
-			size: 3.0d
-			tasks: [{
-				id: "3B83170BC4E75158"
-				item: "mekanism:pellet_antimatter"
-				type: "item"
-			}]
-			x: 2.0d
-			y: -7.0d
-		}
-		{
-			dependencies: ["79757F66DF263FA0"]
-			description: [
-				"To see a visual, check out the Ponder by holding &aW&r while hovering over the Laser Focus Matrix."
-				""
-				"The goal is to aim each Laser into a Laser Amplifier. Using one is pretty slow, so we're going to make a few."
-				""
-				"In the image below, you can see an example of how this is set up. Sticking the Lasers directly on a power source like an Energy Cube works, or you can have them on pipes or cables. You want to give it a block of empty space between the lasers and the Laser Amplifier."
-				""
-				"The Laser Amplifier has a red dot on one of the faces. This is what you want to point towards the Laser Focus Matrix."
-				""
-				"Make sure to turn the Laser Amplifier off (or activate Redstone control) and wait for it to store &cat least 400MRF&r, then it'll be ready."
-				""
-				"{image:atm:textures/questpics/mek/laser_example.png width:200 height:150 align:1} "
-			]
-			id: "320CC038A64A3195"
-			min_width: 400
-			rewards: [
-				{
-					command: "/create ponder mekanismgenerators:laser_focus_matrix"
-					icon: "mekanism:laser"
-					id: "7C62F20073317501"
-					title: "Click Me To See It In Action!"
-					type: "command"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "1EDDDFB8DA186ABC"
-					table_id: 8364958827326577211L
-					type: "loot"
-				}
-				{
-					id: "1D08E38CECF7C7E8"
-					type: "xp"
-					xp: 100
-				}
-			]
-			tasks: [
-				{
-					id: "1F82E1E037CBDC34"
-					item: "mekanism:laser_amplifier"
+					id: "3BF0C0B942243F11"
+					item: { count: 1, id: "mekanismgenerators:reactor_glass" }
 					type: "item"
 				}
 				{
 					count: 3L
-					id: "64C66199BBFDF908"
-					item: "mekanism:laser"
+					id: "36956376F56A076A"
+					item: { count: 2, id: "mekanismgenerators:fusion_reactor_port" }
 					type: "item"
 				}
 			]
-			title: "Jumpstarting Method: &dLaser Focus Array&r"
-			x: 14.5d
-			y: -6.0d
+			x: 18.5d
+			y: -17.5d
 		}
 		{
-			dependencies: ["12D271359D48210E"]
-			description: ["By now, you're already making &aLithium&r. Pump that into a Solar Neutron Activator to create &eTritium&r."]
-			id: "57534FA0E09C4975"
+			dependencies: ["7B385FD1CBE02C85"]
+			hide_dependency_lines: true
+			id: "3E5BE6D6422F682C"
 			rewards: [
 				{
-					exclude_from_claim_all: true
-					id: "50ECD100B9BCD26C"
-					table_id: 8364958827326577211L
-					type: "loot"
-				}
-				{
-					id: "464CDFABB1935067"
-					type: "xp"
-					xp: 50
-				}
-			]
-			tasks: [{
-				id: "6C40D1088C211675"
-				item: "mekanism:solar_neutron_activator"
-				type: "item"
-			}]
-			title: "Fueling the Fusion Reactor: &eTritium&r"
-			x: 12.5d
-			y: -7.5d
-		}
-		{
-			dependencies: ["12D271359D48210E"]
-			description: [
-				"To fuel our Fusion Reactor, we'll need to create two different gases, this one being &cDeuterium&r."
-				""
-				"To make this, we'll need to make some Electric Pumps and give them a Filter Upgrade. Place them over a source block of water, give them some power, and they'll pump out &5Heavy Water&r."
-				""
-				"Pump the Heavy Water into an Electrolytic Separator to get &cDeuterium&r."
-			]
-			icon: "mekanism:electric_pump"
-			id: "4ABF0727AA569DD9"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "6C772F5609C6BFFD"
-					table_id: 8364958827326577211L
-					type: "loot"
-				}
-				{
-					id: "5A40C3DB56EDA0E3"
-					type: "xp"
-					xp: 50
-				}
-			]
-			tasks: [
-				{
-					id: "34228001011C4524"
-					item: "mekanism:electric_pump"
-					type: "item"
-				}
-				{
-					id: "1C627F3894C50E4E"
-					item: "mekanism:upgrade_filter"
-					type: "item"
-				}
-			]
-			title: "Fueling the Reactor: &cDeuterium&r"
-			x: 12.5d
-			y: -8.5d
-		}
-		{
-			dependencies: [
-				"57534FA0E09C4975"
-				"4ABF0727AA569DD9"
-			]
-			description: [
-				"To kick start the Fusion Reactor, we'll need a quick-shot of D-T fuel. This is made by combining &cDeuterium&r and &eTritium&r together in a Chemical Infuser."
-				""
-				"Start by making a &4Hohlraum&r and place it into the Infuser (where the plus symbol is) to fill it with D-T fuel. Now we're ready to jumpstart the Reactor!"
-			]
-			id: "3593D955361B0C6D"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "7118999FC75270C1"
-					table_id: 8364958827326577211L
-					type: "loot"
-				}
-				{
-					id: "2FBAF9E2B19C1A6F"
-					type: "xp"
-					xp: 100
-				}
-			]
-			tasks: [{
-				id: "789B4C8031BCDBDA"
-				item: "mekanismgenerators:hohlraum"
-				type: "item"
-			}]
-			title: "The Fuel Injector"
-			x: 14.5d
-			y: -8.0d
-		}
-		{
-			dependencies: ["0152C49AB74B9D32"]
-			description: [
-				"To create a reaction for the Reactor to turn on, we're going to need to inject it with a ton of power. &oAnd I mean a ton of power&r."
-				""
-				"This requires you to set up several &9Lasers&r that all need to be powered, then shooting 400MFE directly into the Laser Focus Matrix."
-				""
-				"The Laser Focus Matrix is placed in the center of one face of the Fusion Reactor. We'll build the Lasers next."
-			]
-			icon: "mekanism:laser"
-			id: "79757F66DF263FA0"
-			min_width: 300
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "3DD4ABE973CF2F79"
-					table_id: 8364958827326577211L
-					type: "loot"
-				}
-				{
-					id: "27476AD1A921D6BC"
-					type: "xp"
-					xp: 100
-				}
-			]
-			tasks: [{
-				id: "5799CEC4031D454E"
-				item: "mekanismgenerators:laser_focus_matrix"
-				type: "item"
-			}]
-			title: "Frickin' Laser Beams"
-			x: 10.5d
-			y: -6.0d
-		}
-		{
-			dependencies: ["0152C49AB74B9D32"]
-			description: [
-				"Fusion Reactors require a very special fuel: &dD-T Fuel&r to be exact."
-				""
-				"There are two ways to fuel the Reactor: Either by pumping in D-T Fuel directly into the Reactor at 1,000mb/t, or by pumping each of the two fuels  in separately at controlled rates."
-				""
-				"For starters, let's pump them in separately. We probably need to know how to make them as well."
-			]
-			icon: "mekanismgenerators:fusion_fuel_bucket"
-			id: "12D271359D48210E"
-			rewards: [{
-				id: "771198694F018CFC"
-				type: "xp"
-				xp: 10
-			}]
-			tasks: [{
-				id: "2A6E713A062510B6"
-				title: "Fueling the Reactor"
-				type: "checkmark"
-			}]
-			title: "Fueling the &dFusion Reactor&r"
-			x: 10.5d
-			y: -8.0d
-		}
-		{
-			dependencies: [
-				"320CC038A64A3195"
-				"3593D955361B0C6D"
-			]
-			description: [
-				"Hohlraum filled with D-T Fuel? &oCheck!&r"
-				""
-				"Deuterium and Tritium ready to be pumped into the Reactor? &oCheck!&r"
-				""
-				"A Laser Amplifier with at least 400MRF ready to shoot into the Laser Focus Matrix? &oCheck!&r"
-				""
-				"Once you are ready, place the &5Hohlraum&r into the &aFusion Reactor Controller&r, pump in the Fuel, then activate your Laser Amplifier."
-				""
-				"If done right, &nyou'll see the Reactor activate!&r"
-				""
-				""
-				"{image:atm:textures/questpics/mek/fusion_activated.png width:225 height:150 align:1}"
-			]
-			icon: "mekanismgenerators:fusion_reactor_controller"
-			id: "54D8B9CB3F98040F"
-			min_width: 300
-			progression_mode: "linear"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "5E8B928DA02C26C9"
-					table_id: 8364958827326577211L
-					type: "loot"
-				}
-				{
-					id: "66CC79AB269C93AC"
-					type: "xp"
-					xp: 500
-				}
-			]
-			shape: "hexagon"
-			size: 3.0d
-			tasks: [
-				{
-					id: "4B63979C49A34565"
+					count: 2
+					id: "00F06E1FC92F0FD3"
 					item: {
-						Count: 1b
-						id: "mekanismgenerators:hohlraum"
-						tag: {
-							mekData: {
-								GasTanks: [{
-									Tank: 0b
-									stored: {
-										amount: 10L
-										gasName: "mekanismgenerators:fusion_fuel"
-									}
-								}]
-							}
-						}
+						count: 1
+						id: "mekanismgenerators:turbine_vent"
 					}
 					type: "item"
 				}
 				{
-					icon: "mekanismgenerators:fusion_reactor_frame"
-					id: "0B31B1E6089BB33E"
-					title: "Observe a completed Fusion Reactor"
-					type: "custom"
-				}
-			]
-			title: "&dI Think We're Ready&r"
-			x: 17.0d
-			y: -7.0d
-		}
-		{
-			dependencies: ["54D8B9CB3F98040F"]
-			description: [
-				"The &dFusion Reactor&r can produce up to 200MRF/t on its own, but first we need to understand some mechanics."
-				""
-				"The easiest way to produce power is by pumping in Deuterium and Tritium separately, then controlling how much fuel is burned using the &aInjection Rate&r in the &cFuel Tab&r."
-				""
-				"This has to be an even number with a max of 98, as it combines the D-T fuel inside of the Reactor itself. The consumption of each fuel is equal to half of the Injection Rate per tick, meaning 49mb/t of each for the max."
-				""
-				"However, you can directly inject &dD-T Fuel&r, but will not be able to control the Injection Rate. This will create massive amounts of power per tick, but at a much higher fuel consumption rate of 500mb/t of each fuel."
-				""
-				"{image:atm:textures/questpics/mek/fusion_fuelUI.png width:175 height:150 align:1}"
-			]
-			id: "26D306418545A2D6"
-			min_width: 300
-			rewards: [
-				{
-					id: "3D24F967DBB74D71"
-					item: "mekanism:ultimate_induction_cell"
-					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "717D37340F864405"
-					table_id: 8364958827326577211L
-					type: "loot"
-				}
-				{
-					id: "5FAD66DBACDEA6ED"
-					type: "xp"
-					xp: 1000
-				}
-			]
-			subtitle: "Use Task Screen To Complete"
-			tasks: [{
-				id: "1EEEE30BA51757D6"
-				max_input: 1000L
-				type: "forge_energy"
-				value: 50000000L
-			}]
-			title: "&dThe End Game Power Source&r"
-			x: 20.0d
-			y: -7.0d
-		}
-		{
-			dependencies: ["3FFF9018DA2A2763"]
-			description: [
-				"The &9Industrial Turbine&r is a massive multiblock structure used to convert &cHeated Coolant&r into power. The minimum size is 5x5x5, with the maximum size being 17x17x18."
-				""
-				"To build the Turbine, we'll need several blocks so let's start with the basics."
-				""
-				"Just like most Mekanism multiblocks, the frame must be made out of &eTurbine Casings&r. However, instead of Reactor Glass, you can use &bStructural Glass&r or Casings for each face."
-				""
-				"We're going to build this Turbine, and the quest requires the exact materials needed."
-				""
-				"{image:atm:textures/questpics/mek/turbine_completed.png width:200 height:225 align:1}"
-			]
-			id: "6313B18820445882"
-			min_width: 300
-			rewards: [
-				{
-					command: "/create ponder mekanismgenerators:turbine_casing"
-					icon: "ftbquests:barrier"
-					id: "268F36DC559527FD"
-					title: "Click Me To Learn How To Build!"
-					type: "command"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "3178D34B3E9ED19C"
-					table_id: 8364958827326577211L
-					type: "loot"
-				}
-				{
-					id: "0963F21E8369E149"
-					type: "xp"
-					xp: 100
-				}
-			]
-			shape: "gear"
-			subtitle: "Building the Frame"
-			tasks: [
-				{
-					count: 52L
-					id: "0C8EF4390F02EBC4"
-					item: "mekanismgenerators:turbine_casing"
-					type: "item"
-				}
-				{
-					count: 52L
-					id: "3CD4768A3FCA49FF"
-					item: "mekanism:structural_glass"
+					count: 12
+					id: "301546BBBC57E74D"
+					item: {
+						count: 1
+						id: "mekanismgenerators:turbine_casing"
+					}
 					type: "item"
 				}
 			]
-			title: "The &9Industrial Turbine&r"
-			x: 12.5d
-			y: 0.5d
-		}
-		{
-			dependencies: ["6313B18820445882"]
-			description: [
-				"&9Turbine Valves&r are used to pump in &bSteam&r, as well as pumping out the power that the Turbine creates."
-				""
-				"&8Turbine Vents&r are used to pump out excess water when using &aSaturating Condensers&r. Otherwise, these help increase the overall flow of steam within the Turbine. The total number of Vents also limit the total Steam Flow Rate. Vents can also be used on the top face of the Turbine, but for this build, we'll just be using them on the outside faces."
-				""
-				"&aSaturating Condensers&r are used to convert &bSteam&r back into water. These are placed on or above the layer containing the Electromagnetic Coils."
-			]
-			id: "233E438357CD89F6"
-			min_width: 300
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "079119F5F2925E2E"
-					table_id: 8364958827326577211L
-					type: "loot"
-				}
-				{
-					id: "0A4A1734D68DC205"
-					type: "xp"
-					xp: 100
-				}
-			]
-			shape: "diamond"
+			shape: "pentagon"
 			tasks: [
 				{
 					count: 2L
-					id: "3E72FC25B884DFFC"
-					item: "mekanismgenerators:turbine_valve"
+					id: "4ADBCE26247048B5"
+					item: { count: 2, id: "mekanismgenerators:turbine_valve" }
 					type: "item"
 				}
 				{
-					count: 24L
-					id: "4D32BE4920464ED0"
-					item: "mekanismgenerators:turbine_vent"
-					type: "item"
-				}
-				{
-					count: 8L
-					id: "2C56599158C13CDF"
-					item: "mekanismgenerators:saturating_condenser"
+					id: "61E563C851CEAE9C"
+					item: { count: 1, id: "mekanismgenerators:turbine_vent" }
 					type: "item"
 				}
 			]
-			title: "The &aPorts&r"
-			x: 14.0d
-			y: -0.5d
+			x: 7.0d
+			y: -11.5d
 		}
 		{
-			dependencies: ["6313B18820445882"]
-			description: [
-				"The &9Turbine Rotor&r is placed in the middle of the Turbine. For every Turbine Rotor, you will need 2 &aTurbine Blades&r. For this Turbine, we'll be using 3 Rotors."
-				""
-				"While looking at the Rotor, right clicking with &aTurbine Blades&r will place them directly onto the Rotor. The taller the Rotor, the longer the Blades will become. For this build, we are using 6 total Blades. If you plan on building a bigger Turbine, you will need to increase the width of the Turbine depending on how many Blades you plan on using."
-				""
-				"The &9Rotational Complex&r must be placed at the top of the Turbine Rotor. This is then surrounded by &ePressure Dispersers&r."
-				""
-				"The Dispersers must fill out the entire layer where the Rotational Complex sits."
-			]
-			id: "05D20B506213A449"
-			min_width: 300
+			dependencies: ["7B385FD1CBE02C85"]
+			hide_dependency_lines: true
+			id: "4211F29561F21643"
 			rewards: [
 				{
-					exclude_from_claim_all: true
-					id: "5FCF42CDCA222B28"
-					table_id: 8364958827326577211L
-					type: "loot"
-				}
-				{
-					id: "5FDADDDF8428A238"
-					type: "xp"
-					xp: 50
-				}
-			]
-			shape: "diamond"
-			tasks: [
-				{
-					count: 3L
-					id: "69CE83F6561383E5"
-					item: "mekanismgenerators:turbine_rotor"
+					count: 4
+					id: "64B83C91CED87CEC"
+					item: {
+						count: 1
+						id: "mekanismgenerators:turbine_rotor"
+					}
 					type: "item"
 				}
 				{
-					id: "2902E36FD3AC8E68"
-					item: "mekanismgenerators:rotational_complex"
+					count: 8
+					id: "41F7C191E11198AB"
+					item: {
+						count: 1
+						id: "mekanismgenerators:turbine_blade"
+					}
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			tasks: [
+				{
+					count: 2L
+					id: "3C99BB935A826521"
+					item: { count: 2, id: "mekanismgenerators:turbine_rotor" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "095CA8A85AA2C79A"
+					item: { count: 4, id: "mekanismgenerators:turbine_blade" }
+					type: "item"
+				}
+				{
+					id: "41C0E546A0619C41"
+					item: { count: 1, id: "mekanismgenerators:rotational_complex" }
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: -12.5d
+		}
+		{
+			dependencies: ["7B385FD1CBE02C85"]
+			hide_dependency_lines: true
+			id: "02C6132919DEAF2A"
+			rewards: [
+				{
+					count: 3
+					id: "007781116E4E6179"
+					item: {
+						count: 1
+						id: "mekanism:pressure_disperser"
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "3899C343AE22A6CA"
+					item: {
+						count: 1
+						id: "mekanismgenerators:electromagnetic_coil"
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "09AF0D9FFDA03B27"
+					item: {
+						count: 1
+						id: "mekanismgenerators:saturating_condenser"
+					}
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			tasks: [
+				{
+					id: "0E9ED9986642A7FF"
+					item: { count: 1, id: "mekanism:pressure_disperser" }
+					type: "item"
+				}
+				{
+					id: "3F75EBCFA03736AB"
+					item: { count: 1, id: "mekanismgenerators:electromagnetic_coil" }
+					type: "item"
+				}
+				{
+					id: "6EF78719DB78382F"
+					item: { count: 1, id: "mekanismgenerators:saturating_condenser" }
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: -13.5d
+		}
+		{
+			dependencies: [
+				"4211F29561F21643"
+				"02C6132919DEAF2A"
+				"3E5BE6D6422F682C"
+			]
+			id: "6CCE920735187234"
+			rewards: [
+				{
+					count: 16
+					id: "7EB682A4A4503100"
+					item: {
+						count: 1
+						id: "mekanismgenerators:turbine_casing"
+					}
+					type: "item"
+				}
+				{
+					count: 20
+					id: "04213708A015D94F"
+					item: {
+						count: 1
+						id: "mekanism:structural_glass"
+					}
+					type: "item"
+				}
+				{
+					id: "0DB3F0526FED9FBA"
+					item: {
+						components: {
+							"mekanism:chemicals": {
+								chemical_tanks: [{
+									amount: 1024000L
+									id: "mekanism:steam"
+								}]
+							}
+							"mekanism:owner": [I;
+								1448333235
+								-1957933073
+								-1931931567
+								1246553530
+							]
+						}
+						count: 1
+						id: "mekanism:elite_chemical_tank"
+					}
+					type: "item"
+				}
+				{
+					id: "3A10B05685CB2D73"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			shape: "octagon"
+			size: 1.5d
+			tasks: [
+				{
+					count: 52L
+					id: "5D8D61F0070CE37F"
+					item: { count: 1, id: "mekanismgenerators:turbine_casing" }
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "3045BF441AC70B19"
+					item: { count: 1, id: "mekanism:structural_glass" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "48BD16ACD9A30857"
+					item: { count: 1, id: "mekanismgenerators:turbine_valve" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "02D64EA046D00FE0"
+					item: { count: 1, id: "mekanismgenerators:turbine_rotor" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "777FD19911306F57"
+					item: { count: 1, id: "mekanismgenerators:turbine_blade" }
+					type: "item"
+				}
+				{
+					id: "5CE4C14ACEC89205"
+					item: { count: 1, id: "mekanismgenerators:rotational_complex" }
 					type: "item"
 				}
 				{
 					count: 8L
-					id: "1E9FDE2560C1AB7C"
-					item: "mekanism:pressure_disperser"
+					id: "2C5B75264656AEDE"
+					item: { count: 1, id: "mekanism:pressure_disperser" }
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "45F7E0EA725200CE"
+					item: { count: 1, id: "mekanismgenerators:electromagnetic_coil" }
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "1D2026F8EB0D24D2"
+					item: { count: 1, id: "mekanismgenerators:saturating_condenser" }
+					type: "item"
+				}
+				{
+					count: 12L
+					id: "79CC7DCAAD8B6141"
+					item: { count: 12, id: "mekanismgenerators:turbine_vent" }
+					type: "item"
+				}
+			]
+			x: 5.5d
+			y: -12.5d
+		}
+		{
+			dependencies: [
+				"141D68BAD039784B"
+				"5B9F3F32AB28A83A"
+			]
+			id: "6B7E13AB3BF2C5C8"
+			optional: true
+			rewards: [
+				{
+					count: 9
+					id: "6AFE2A09609B5FC1"
+					item: {
+						count: 1
+						id: "mekanism:pressure_disperser"
+					}
+					type: "item"
+				}
+				{
+					count: 9
+					id: "7AE9A2F6153B1667"
+					item: {
+						count: 1
+						id: "mekanism:superheating_element"
+					}
+					type: "item"
+				}
+				{
+					count: 10
+					id: "2FCC7E1377CDDC68"
+					item: {
+						count: 1
+						id: "mekanism:structural_glass"
+					}
+					type: "item"
+				}
+				{
+					id: "60E9A6B22623DC4E"
+					item: {
+						components: {
+							"mekanism:chemicals": {
+								chemical_tanks: [{
+									amount: 64000L
+									id: "mekanism:superheated_sodium"
+								}]
+							}
+							"mekanism:owner": [I;
+								1448333235
+								-1957933073
+								-1931931567
+								1246553530
+							]
+							"mekanism:side_config": {
+								config: {
+									chemicals: {
+										side: {
+											back: "input"
+											bottom: "input"
+											front: "output"
+											left: "input"
+											right: "input"
+											top: "input"
+										}
+									}
+									items: {
+										side: {
+											back: "input"
+											bottom: "input"
+											front: "output"
+											left: "input"
+											right: "input"
+											top: "input"
+										}
+									}
+								}
+							}
+						}
+						count: 1
+						id: "mekanism:basic_chemical_tank"
+					}
+					type: "item"
+				}
+				{
+					id: "70D379B935C0FE7E"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			shape: "octagon"
+			size: 1.5d
+			tasks: [
+				{
+					count: 24L
+					id: "569D59AF13AF6B4E"
+					item: { count: 1, id: "mekanism:boiler_casing" }
 					type: "item"
 				}
 				{
 					count: 6L
-					id: "526F17523CE9BDF5"
-					item: "mekanismgenerators:turbine_blade"
+					id: "492B866023128B7B"
+					item: { count: 6, id: "mekanism:structural_glass" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "15E1D36E2CE6FA0D"
+					item: { count: 4, id: "mekanism:boiler_valve" }
+					type: "item"
+				}
+				{
+					id: "4F04ECAF54953E25"
+					item: { count: 1, id: "mekanism:pressure_disperser" }
+					type: "item"
+				}
+				{
+					id: "4BF09136A5C1268A"
+					item: { count: 1, id: "mekanism:superheating_element" }
 					type: "item"
 				}
 			]
-			title: "The &aRotor&r"
-			x: 14.0d
-			y: 0.5d
+			x: 16.5d
+			y: -12.5d
 		}
 		{
-			dependencies: ["6313B18820445882"]
-			description: [
-				"The &9Electromagnetic Coil&r is placed directly on top of the &aRotational Complex&r to convert the kinetic energy into power."
-				""
-				"You can use multiple, with 5 being the max. These must either touch another Coil, or the Rotational Complex."
-			]
-			id: "7C61906C6C87C97D"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "29C9FF0DAC44A134"
-					table_id: 8364958827326577211L
-					type: "loot"
+			dependencies: ["17E2C05C48B03043"]
+			id: "141D68BAD039784B"
+			optional: true
+			rewards: [{
+				count: 5
+				id: "51ACB3D084D22D63"
+				item: {
+					count: 1
+					id: "mekanism:boiler_casing"
 				}
-				{
-					id: "18AE58687D78BB0F"
-					type: "xp"
-					xp: 25
-				}
-			]
-			shape: "diamond"
-			tasks: [{
-				id: "4C0CC372A8597375"
-				item: "mekanismgenerators:electromagnetic_coil"
 				type: "item"
 			}]
-			x: 14.0d
-			y: 1.5d
-		}
-		{
-			dependencies: [
-				"233E438357CD89F6"
-				"7C61906C6C87C97D"
-				"05D20B506213A449"
-			]
-			description: [
-				"If you've built the Turbine properly, you will see red particles around the structure. Right clicking on the Turbine will open up the interface."
-				""
-				"This will tell you all of the information that you need to know, including the total Steam Flow Rate, as well as the total Steam inside of the Turbine."
-				""
-				"On the right, you will have a bar that shows you the Power that is stored inside of the Turbine. If this gets full, the Turbine will turn off, unless you set it to Vent Overflow."
-				""
-				"Let's get it running!"
-				""
-				"Once you have a fully functioning Fission Reactor, pump out the &bSteam&r directly into a Turbine Valve on your Turbine. Since we're using Saturating Condensers in this build, you can pump out water from a Turbine Vent back into your Reactor if you want. "
-			]
-			id: "4189BC3DFB551F4C"
-			min_width: 300
-			progression_mode: "linear"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "4C5DD65195702E52"
-					table_id: 8364958827326577211L
-					type: "loot"
-				}
-				{
-					id: "3B59F78B29ABD642"
-					type: "xp"
-					xp: 250
-				}
-			]
-			shape: "hexagon"
-			size: 2.0d
-			tasks: [{
-				icon: "mekanismgenerators:turbine_casing"
-				id: "71DB5E5857993B3F"
-				title: "Observe a Completed Turbine"
-				type: "custom"
-			}]
-			title: "Creating Power with the Turbine!"
-			x: 15.5d
-			y: 0.5d
-		}
-		{
-			dependencies: ["24174700F7FB771C"]
-			description: [
-				"If we want to create massive amounts of power, we'll need a way to store all of it, and those Energy Cubes just won't cut it."
-				""
-				"We're going to create a customizable multiblock used to store large amounts of power, but first, we need to make some Lithium Dust!"
-				""
-				"You should have some Brine being made from a previous quest using the &aThermal Evaporation Plants&r. Run the &eBrine&r through another &aThermal Evaporation Plant&r to get Lithium, then through a &aRotary Condensentrator&r to convert the liquid into a gas, then finally run the gas through a &9Chemical Crystallizer&r to get &aLithium Dust&r."
-			]
-			icon: "mekanism:upgrade_energy"
-			id: "0FF852DE33E41C90"
-			min_width: 250
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "4DA0A0C799C02F80"
-					table_id: 8364958827326577211L
-					type: "loot"
-				}
-				{
-					id: "6FBC38ABC17E2BFF"
-					type: "xp"
-					xp: 100
-				}
-			]
-			shape: "hexagon"
+			shape: "pentagon"
 			tasks: [{
 				count: 4L
-				id: "31A1425AA09C33F8"
-				item: "mekanism:dust_lithium"
+				id: "2D6A5B51E7B9DD9F"
+				item: { count: 2, id: "mekanism:boiler_valve" }
 				type: "item"
 			}]
-			title: "Advanced Power Storage"
-			x: 3.0d
-			y: -1.0d
+			x: 15.0d
+			y: -13.0d
 		}
 		{
-			dependencies: ["0FF852DE33E41C90"]
-			description: [
-				"Almost every Mekanism multiblock is built the same way."
-				""
-				"You'll need to make a rectangular prism structure. The edges must be made out of &8Induction Casings&r. The faces can be made of either Casings, &aStructural Glass&r, or &cInduction Ports&r. It's best to have 2 Ports: one for input, and one for output. These can be changed using the &eConfigurator&r."
-				""
-				"For this build, we'll be making a 5x5x5. This quest requires the exact amount of materials needed to build this. Need help? &nCheck out the Ponder!&r"
-				""
-				"{image:atm:textures/questpics/mek/induction_matrix.png width:200 height:200 align:1}"
-			]
-			hide: false
-			id: "673FCBF8685D0EEE"
-			min_width: 300
-			rewards: [
-				{
-					command: "/create ponder mekanism:induction_casing"
-					icon: "ftbquests:barrier"
-					id: "1B37826ECEC743AB"
-					title: "Click Me To See How To Build!"
-					type: "command"
+			id: "5B9F3F32AB28A83A"
+			optional: true
+			rewards: [{
+				count: 5
+				id: "37A927C2B371D24F"
+				item: {
+					count: 1
+					id: "mekanism:boiler_casing"
 				}
-				{
-					exclude_from_claim_all: true
-					id: "613F17C233D08DE6"
-					table_id: 8364958827326577211L
-					type: "loot"
-				}
-				{
-					id: "47EF9E0FC6A57445"
-					type: "xp"
-					xp: 100
-				}
-			]
-			shape: "diamond"
-			subtitle: "The Energy Cube's Papa"
-			tasks: [
-				{
-					count: 44L
-					id: "6D0EB8C587E34699"
-					item: "mekanism:induction_casing"
-					type: "item"
-				}
-				{
-					count: 2L
-					id: "6468D6A69F683E6D"
-					item: "mekanism:induction_port"
-					type: "item"
-				}
-				{
-					count: 55L
-					id: "5586FBB0561715AD"
-					item: "mekanism:structural_glass"
-					type: "item"
-				}
-			]
-			title: "Building the &9Induction Matrix&r"
-			x: 4.0d
-			y: -1.5d
-		}
-		{
-			dependencies: ["0FF852DE33E41C90"]
-			description: [
-				"The Induction Matrix allows you to customize how much power you can store and transfer by adding Cells and Providers inside of the multiblock structure."
-				""
-				"Induction Cells increase the total amount of power that can be stored."
-				""
-				"Induction Providers increase the total transfer speed both in and out of the Matrix."
-				""
-				"You can customize how many you want of each inside of the multiblock, but you will need at least one of each. These also have higher tiers to increase your overall storage and transfer capacity."
-				""
-				"{image:atm:textures/questpics/mek/induction_inside.png width:300 height:200 align:1}"
-			]
-			hide: false
-			id: "14D772808D1BEAE2"
-			min_width: 350
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "250D8106ACD732CF"
-					table_id: 8364958827326577211L
-					type: "loot"
-				}
-				{
-					id: "3CC428CF1A7974C7"
-					type: "xp"
-					xp: 100
-				}
-			]
-			shape: "diamond"
-			tasks: [
-				{
-					id: "4063C1B5F935A026"
-					item: {
-						Count: 1b
-						id: "itemfilters:or"
-						tag: {
-							items: [
-								{
-									Count: 1b
-									id: "mekanism:basic_induction_cell"
-								}
-								{
-									Count: 1b
-									id: "mekanism:advanced_induction_cell"
-								}
-								{
-									Count: 1b
-									id: "mekanism:elite_induction_cell"
-								}
-								{
-									Count: 1b
-									id: "mekanism:ultimate_induction_cell"
-								}
-							]
-						}
-					}
-					title: "Induction Cells"
-					type: "item"
-				}
-				{
-					id: "2E3FF129C3668DD8"
-					item: {
-						Count: 1b
-						id: "itemfilters:or"
-						tag: {
-							items: [
-								{
-									Count: 1b
-									id: "mekanism:basic_induction_provider"
-								}
-								{
-									Count: 1b
-									id: "mekanism:advanced_induction_provider"
-								}
-								{
-									Count: 1b
-									id: "mekanism:elite_induction_provider"
-								}
-								{
-									Count: 1b
-									id: "mekanism:ultimate_induction_provider"
-								}
-							]
-						}
-					}
-					title: "Induction Providers"
-					type: "item"
-				}
-			]
-			title: "&aCustomizing Our&r &9Power Limits&r"
-			x: 4.0d
-			y: -0.5d
-		}
-		{
-			dependencies: [
-				"673FCBF8685D0EEE"
-				"14D772808D1BEAE2"
-			]
-			description: [
-				"Once you've finished building your first &9Energized Induction Matrix&r, you'll see red particles all around the structure to show that it is complete."
-				""
-				"Don't be afraid to upgrade with higher tier Cells and Providers! Need more space for them? The maximum size the Induction Matrix can be is 18x18x18. "
-			]
-			icon: "mekanism:ultimate_induction_cell"
-			id: "07ECC87DFF2D3991"
-			progression_mode: "linear"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "2871E7A5B590DB95"
-					table_id: 8364958827326577211L
-					type: "loot"
-				}
-				{
-					id: "19F7348CFE7A14C9"
-					type: "xp"
-					xp: 100
-				}
-			]
-			shape: "diamond"
-			size: 1.5d
-			tasks: [{
-				icon: "mekanism:induction_casing"
-				id: "621A4E28BD50F96C"
-				title: "Observe a Completed Induction Matrix"
-				type: "custom"
+				type: "item"
 			}]
-			title: "&aCompleting the&r &9Matrix&r"
+			shape: "pentagon"
+			tasks: [
+				{
+					id: "64B7DC6996AE42E8"
+					item: { count: 1, id: "mekanism:superheating_element" }
+					type: "item"
+				}
+				{
+					id: "18DBF948D3B19634"
+					item: { count: 1, id: "mekanism:pressure_disperser" }
+					type: "item"
+				}
+			]
+			x: 15.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["505799C894C771B2"]
+			id: "46932D87871BE12F"
+			tasks: [{
+				id: "428F86619E6F8634"
+				item: { components: { "modular_machinery_reborn:machine": "atm:chemical_crystallizer" }, count: 1, id: "modular_machinery_reborn:controller" }
+				type: "item"
+			}]
+			x: 15.0d
+			y: -20.5d
+		}
+		{
+			dependencies: ["505799C894C771B2"]
+			id: "50B62CF314648881"
+			tasks: [{
+				id: "6CF069683E5451C8"
+				item: { components: { "modular_machinery_reborn:machine": "atm:chemical_infuser" }, count: 1, id: "modular_machinery_reborn:controller" }
+				type: "item"
+			}]
+			x: 16.0d
+			y: -20.5d
+		}
+		{
+			dependencies: ["505799C894C771B2"]
+			id: "54255B7820A0F0B1"
+			tasks: [{
+				id: "6ED62CB51A93695C"
+				item: { components: { "modular_machinery_reborn:machine": "atm:isotopic_centrifuge" }, count: 1, id: "modular_machinery_reborn:controller" }
+				type: "item"
+			}]
+			x: 17.0d
+			y: -20.5d
+		}
+		{
+			dependencies: ["505799C894C771B2"]
+			id: "6B56F92E28C92A0F"
+			tasks: [{
+				id: "508859148760CE17"
+				item: { components: { "modular_machinery_reborn:machine": "atm:solar_neutron_activator" }, count: 1, id: "modular_machinery_reborn:controller" }
+				type: "item"
+			}]
+			x: 18.0d
+			y: -20.5d
+		}
+		{
+			dependencies: ["505799C894C771B2"]
+			id: "234C2C3144817018"
+			tasks: [{
+				id: "65961E5715BD3F10"
+				item: { components: { "modular_machinery_reborn:machine": "atm:pressurized_reaction_chamber" }, count: 1, id: "modular_machinery_reborn:controller" }
+				type: "item"
+			}]
+			x: 14.5d
+			y: -19.5d
+		}
+		{
+			dependencies: ["505799C894C771B2"]
+			id: "72B7C09AFA2245E1"
+			tasks: [{
+				id: "2DB38C57EC369D95"
+				item: { components: { "modular_machinery_reborn:machine": "atm:chemical_oxidizer" }, count: 1, id: "modular_machinery_reborn:controller" }
+				type: "item"
+			}]
+			x: 15.5d
+			y: -19.5d
+		}
+		{
+			dependencies: ["505799C894C771B2"]
+			id: "60A1AEEDB0C44663"
+			tasks: [{
+				id: "047BE09637E11176"
+				item: { components: { "modular_machinery_reborn:machine": "atm:chemical_dissolution_chamber" }, count: 1, id: "modular_machinery_reborn:controller" }
+				type: "item"
+			}]
+			x: 16.5d
+			y: -19.5d
+		}
+		{
+			dependencies: ["505799C894C771B2"]
+			id: "359934E888495E5E"
+			tasks: [{
+				id: "18B36549C203B046"
+				item: { components: { "modular_machinery_reborn:machine": "atm:chemical_washer" }, count: 1, id: "modular_machinery_reborn:controller" }
+				type: "item"
+			}]
+			x: 17.5d
+			y: -19.5d
+		}
+		{
+			dependencies: ["505799C894C771B2"]
+			id: "106C4EB6002B8B41"
+			tasks: [{
+				id: "33A0FDCC57AD7863"
+				item: { components: { "modular_machinery_reborn:machine": "atm:electrolytic_seperator" }, count: 1, id: "modular_machinery_reborn:controller" }
+				type: "item"
+			}]
+			x: 18.5d
+			y: -19.5d
+		}
+		{
+			dependencies: ["6A1174845810C7A1"]
+			id: "5AC68C8A4024F4C9"
+			rewards: [{
+				id: "269E2348355289AA"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "none"
+			tasks: [{
+				id: "6E5D6EED9C1BA48E"
+				item: { count: 1, id: "mekanism:module_energy_unit" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -22.0d
+		}
+		{
+			dependencies: ["6A1174845810C7A1"]
+			id: "4869D9DBDD1A15CD"
+			rewards: [{
+				id: "6FD6D85B227D8936"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "none"
+			tasks: [{
+				id: "2AC3CB8FBD0C0EEA"
+				item: { count: 1, id: "mekanism:module_color_modulation_unit" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -21.0d
+		}
+		{
+			dependencies: ["6A1174845810C7A1"]
+			id: "4447EEEB8D762721"
+			rewards: [{
+				id: "5C88010A35731735"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "none"
+			tasks: [{
+				id: "7D10D330834EFBA6"
+				item: { count: 1, id: "mekanism:module_laser_dissipation_unit" }
+				type: "item"
+			}]
 			x: 5.0d
-			y: -1.0d
+			y: -21.0d
+		}
+		{
+			dependencies: ["6A1174845810C7A1"]
+			id: "35D9CD19EAADED6C"
+			rewards: [{
+				id: "580EF4748595BA43"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "none"
+			tasks: [{
+				id: "49238E5958EB7799"
+				item: { count: 1, id: "mekanism:module_radiation_shielding_unit" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -21.0d
+		}
+		{
+			dependencies: ["6A1174845810C7A1"]
+			id: "0F97EFAFD6E68F8D"
+			rewards: [{
+				id: "042AF25076C308B5"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "none"
+			tasks: [{
+				id: "202770E4066D1877"
+				item: { count: 1, id: "mekanism:module_excavation_escalation_unit" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -16.0d
+		}
+		{
+			dependencies: ["6A1174845810C7A1"]
+			id: "3526D444F81AD6D9"
+			rewards: [{
+				id: "401F05AA89F60FEB"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "none"
+			tasks: [{
+				id: "13C323F3F9C07CCD"
+				item: { count: 1, id: "mekanism:module_attack_amplification_unit" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -16.0d
+		}
+		{
+			dependencies: ["6A1174845810C7A1"]
+			id: "6518480251F0565A"
+			rewards: [{
+				id: "4655359476F14A2B"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "none"
+			tasks: [{
+				id: "42A82E63A6E398C2"
+				item: { count: 1, id: "mekanism:module_farming_unit" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -16.0d
+		}
+		{
+			dependencies: ["6A1174845810C7A1"]
+			id: "00E19377BAE5DD6A"
+			optional: true
+			rewards: [{
+				id: "62C565C439274F7C"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "none"
+			tasks: [{
+				id: "2A37E5CF3D3AFEEF"
+				item: { count: 1, id: "mekanism:module_shearing_unit" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -16.0d
+		}
+		{
+			dependencies: ["6A1174845810C7A1"]
+			id: "7ECE00D12CFC50A4"
+			optional: true
+			rewards: [{
+				id: "3BD45772411BB8AE"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "none"
+			tasks: [{
+				id: "795F47DECA8922C5"
+				item: { count: 1, id: "mekanism:module_silk_touch_unit" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -16.0d
+		}
+		{
+			dependencies: ["6A1174845810C7A1"]
+			id: "40B24676E11D9410"
+			optional: true
+			rewards: [{
+				id: "4BA2AF39ECA6B3B3"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "none"
+			tasks: [{
+				id: "0E96DB67E37EC747"
+				item: { count: 1, id: "mekanism:module_fortune_unit" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -16.0d
+		}
+		{
+			dependencies: ["6A1174845810C7A1"]
+			id: "52B3955A80DB0B4A"
+			optional: true
+			rewards: [{
+				id: "51654B89F65A7763"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "none"
+			tasks: [{
+				id: "173D44FBA6A06D77"
+				item: { count: 1, id: "mekanism:module_blasting_unit" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -16.0d
+		}
+		{
+			dependencies: ["6A1174845810C7A1"]
+			id: "77B6A7151B3E5980"
+			optional: true
+			rewards: [{
+				id: "5281A564DA086DD2"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "none"
+			tasks: [{
+				id: "2F6EF6B1BFF34281"
+				item: { count: 1, id: "mekanism:module_vein_mining_unit" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -16.0d
+		}
+		{
+			dependencies: ["6A1174845810C7A1"]
+			id: "18EB2170CAC48E99"
+			optional: true
+			rewards: [{
+				id: "30966C73FC687314"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "none"
+			tasks: [{
+				id: "33369946D240D6A4"
+				item: { count: 1, id: "mekanism:module_teleportation_unit" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -16.0d
+		}
+		{
+			dependencies: ["6A1174845810C7A1"]
+			id: "0133DA323E24A455"
+			rewards: [{
+				id: "324BD37EEF7F1E37"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "none"
+			tasks: [{
+				id: "2E6D83EA355A31EB"
+				item: { count: 1, id: "mekanism:module_electrolytic_breathing_unit" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -20.0d
+		}
+		{
+			dependencies: ["6A1174845810C7A1"]
+			id: "27195E9A3482C158"
+			rewards: [{
+				id: "23869998A648AFFD"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "none"
+			tasks: [{
+				id: "29E969E807248389"
+				item: { count: 1, id: "mekanism:module_inhalation_purification_unit" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -20.0d
+		}
+		{
+			dependencies: ["6A1174845810C7A1"]
+			id: "459AEC4C2A611824"
+			rewards: [{
+				id: "28A96CAADB911249"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "none"
+			tasks: [{
+				id: "758EF0FE2AC338F5"
+				item: { count: 1, id: "mekanism:module_vision_enhancement_unit" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -20.0d
+		}
+		{
+			dependencies: ["6A1174845810C7A1"]
+			id: "63B0E39CA4B25A7E"
+			rewards: [{
+				id: "46502B7E5C899315"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "none"
+			tasks: [{
+				id: "47AFA5227679624A"
+				item: { count: 1, id: "mekanism:module_nutritional_injection_unit" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -20.0d
+		}
+		{
+			dependencies: ["6A1174845810C7A1"]
+			id: "43DB0CFC5F5B0967"
+			rewards: [{
+				id: "52F7DC6CFA23597E"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "none"
+			tasks: [{
+				id: "76CA2D39545A0B0C"
+				item: { count: 1, id: "mekanism:module_dosimeter_unit" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -19.0d
+		}
+		{
+			dependencies: ["6A1174845810C7A1"]
+			id: "24E800EEC2CAD626"
+			rewards: [{
+				id: "34FF6F4F9DBA30A3"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "none"
+			tasks: [{
+				id: "28F37629C0BF2486"
+				item: { count: 1, id: "mekanism:module_geiger_unit" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -19.0d
+		}
+		{
+			dependencies: ["6A1174845810C7A1"]
+			id: "58B5EF8EB72934C2"
+			rewards: [{
+				id: "2F30D0288BEEAA46"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "none"
+			tasks: [{
+				id: "1A1F9F8B6B60C146"
+				item: { count: 1, id: "mekanism:module_jetpack_unit" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -19.0d
+		}
+		{
+			dependencies: ["6A1174845810C7A1"]
+			id: "22171982D22CE15F"
+			rewards: [{
+				id: "740E2E91C1B9C922"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "none"
+			tasks: [{
+				id: "19739F0047643398"
+				item: { count: 1, id: "mekanism:module_charge_distribution_unit" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -19.0d
+		}
+		{
+			dependencies: ["6A1174845810C7A1"]
+			id: "7C7BD54624ED9AC2"
+			rewards: [{
+				id: "3F0AAE741612611B"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "none"
+			tasks: [{
+				id: "6B60AB2C6C6E2443"
+				item: { count: 1, id: "mekanism:module_gravitational_modulating_unit" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -19.0d
+		}
+		{
+			dependencies: ["6A1174845810C7A1"]
+			id: "32ABE5D734703B9C"
+			rewards: [{
+				id: "7B85986471E1594F"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "none"
+			tasks: [{
+				id: "32271B3777639C8E"
+				item: { count: 1, id: "mekanism:module_elytra_unit" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -19.0d
+		}
+		{
+			dependencies: ["6A1174845810C7A1"]
+			hide_details_until_startable: false
+			id: "2747AEE1F7F97848"
+			rewards: [{
+				id: "4A8900D905BBEAB8"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "none"
+			tasks: [{
+				id: "6B2BC94876DF24A2"
+				item: { count: 1, id: "mekanism:module_locomotive_boosting_unit" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -18.0d
+		}
+		{
+			dependencies: ["6A1174845810C7A1"]
+			id: "23B68F19A04AF5D7"
+			rewards: [{
+				id: "558297F1B6C9B9F2"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "none"
+			tasks: [{
+				id: "04ABBC2F2F45F733"
+				item: { count: 1, id: "mekanism:module_gyroscopic_stabilization_unit" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -18.0d
+		}
+		{
+			dependencies: ["6A1174845810C7A1"]
+			id: "4F9C8D90ACF563F5"
+			rewards: [{
+				id: "3D1116B21F8E8E53"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "none"
+			tasks: [{
+				id: "2BFA2A05915A6830"
+				item: { count: 1, id: "mekanism:module_hydrostatic_repulsor_unit" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -18.0d
+		}
+		{
+			dependencies: ["6A1174845810C7A1"]
+			id: "1FC88A3BFCE6C9D7"
+			rewards: [{
+				id: "2D2A4C3FDD87AC46"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "none"
+			tasks: [{
+				id: "7A100E37BA2F44C8"
+				item: { count: 1, id: "mekanism:module_motorized_servo_unit" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -18.0d
+		}
+		{
+			dependencies: ["6A1174845810C7A1"]
+			id: "0EBE20E44A7AEC7E"
+			rewards: [{
+				id: "1F9B5C8C5FC9A149"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "none"
+			tasks: [{
+				id: "71EF0FA8F93693AE"
+				item: { count: 1, id: "mekanism:module_hydraulic_propulsion_unit" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -17.0d
+		}
+		{
+			dependencies: ["6A1174845810C7A1"]
+			id: "48F496BD0FFE5A34"
+			rewards: [{
+				id: "7FC7F7827169FA30"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "none"
+			tasks: [{
+				id: "75FADC42733C3783"
+				item: { count: 1, id: "mekanism:module_magnetic_attraction_unit" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -17.0d
+		}
+		{
+			dependencies: ["6A1174845810C7A1"]
+			id: "795B80BF12D23897"
+			rewards: [{
+				id: "089379DDFFA90D0E"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "none"
+			tasks: [{
+				id: "4E702655D2463226"
+				item: { count: 1, id: "mekanism:module_frost_walker_unit" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -17.0d
+		}
+		{
+			dependencies: ["6A1174845810C7A1"]
+			hide_details_until_startable: false
+			id: "5CE7756D80E051CC"
+			rewards: [{
+				id: "0335408265345BC9"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "none"
+			tasks: [{
+				id: "39794336C6C22715"
+				item: { count: 1, id: "mekanism:module_soul_surfer_unit" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -17.0d
+		}
+		{
+			dependencies: ["6A1174845810C7A1"]
+			id: "5A4C9F7F81D6B9DB"
+			rewards: [{
+				id: "10B8D2CE79C60B77"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "none"
+			tasks: [{
+				id: "59084167FB5DB9B7"
+				item: { count: 1, id: "gmut:module_gravitational_modulating_additional_unit" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -19.0d
+		}
+		{
+			dependencies: ["6A1174845810C7A1"]
+			id: "62B29AEF8468750E"
+			rewards: [{
+				id: "2E5C8A8FC1BECEBB"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "none"
+			tasks: [{
+				id: "0290DE7D3ADC6199"
+				item: { count: 1, id: "mekanismgenerators:module_geothermal_generator_unit" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -18.0d
+		}
+		{
+			dependencies: ["6A1174845810C7A1"]
+			id: "123C0417D85B9DB2"
+			rewards: [{
+				id: "74968CA2085E6DF9"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "none"
+			tasks: [{
+				id: "2637C6A325CFD72D"
+				item: { count: 1, id: "mekanismgenerators:module_solar_recharging_unit" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -20.0d
+		}
+		{
+			id: "505799C894C771B2"
+			invisible: true
+			tasks: [{
+				id: "74E743C093C7EC3B"
+				type: "checkmark"
+			}]
+			x: 16.5d
+			y: -21.5d
 		}
 	]
-	title: "Mekanism: &dAdvanced&r"
 }

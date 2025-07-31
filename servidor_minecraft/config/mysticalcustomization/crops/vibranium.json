@@ -3,7 +3,7 @@
     "type": "mysticalagriculture:resource",
     "tier": "mysticalcustomization:magical",
     "ingredient": {
-      "tag": "forge:storage_blocks/vibranium"
+      "tag": "c:storage_blocks/vibranium"
     },
     "color": "26DB86",
     "textures": {

@@ -1,14 +1,3 @@
-
-[core]
-
-	[core.general]
-		#If an anonymous mod startup analytics request may be sent to our analytics service.
-		analytics = false
-		#If the version checker should be enabled.
-		versionChecker = false
-
-[general]
-
 	[general.general]
 		#If the blood gui overlay should be rendered.
 		bloodGuiOverlay = true
@@ -29,19 +18,17 @@
 		#If shapeless crafting of the higher tiers of weather containers should be enabled.
 		shapelessRecipes = true
 
-[worldgeneration]
-
 	[worldgeneration.general]
 		#The spawn chance for loot chests in dark temples, set to zero to completely disable.
 		darkTempleChestChance = 0.15
 		#Spawn extra silverfish blocks in all biomes.
 		extraSilverfish = false
 
-	[worldgeneration.dark_temple]
-		#If dark temple should be added to all dimensions (except for the end and nether).
-		enabled = true
-
-[block]
+	[core.general]
+		#If an anonymous mod startup analytics request may be sent to our analytics service.
+		analytics = true
+		#If the version checker should be enabled.
+		versionChecker = true
 
 	[block.blood_stain]
 		#The amount of blood per HP (2HP = 1 heart) of the max mob health that will be added to this blockState when a mob dies from fall damage.
@@ -65,13 +52,13 @@
 		#The radius that will be kept spirit-proof.
 		area = 15
 
-[machine]
-
 	[machine.blood_chest]
 		#The amount of ticks required for repairing one damage value.
 		ticksPerDamage = 2
 		#Item names that can not be repaired. Regular expressions are allowed.
 		itemBlacklist = ["minecraft:stick"]
+		#The 1/x chance the Blood Chest should add random bad enchants with a small chance to repairing items. Disabled by setting to a negative value.
+		randomBadEnchantsChance = 10000
 		#The amount Blood mB required for repairing one damage value.
 		mBPerDamage = 5
 		#If the Blood Chest should add random bad enchants with a small chance to repairing items.
@@ -141,7 +128,9 @@
 		#The base blood usage in mB for recipes, this is multiplied with the cooldown time per recipe.
 		baseUsage = 50
 
-[item]
+	[machine.blood_infuser]
+		#Priority list of mod id's when determining tag-based recipe outputs.
+		recipeTagOutputModPriorities = []
 
 	[item.dark_tank]
 		#If held buckets should be autofilled when enabled.
@@ -186,8 +175,6 @@
 		guiOverlayPosition = 1
 		#The blood usage in mB per tick.
 		bloodUsage = 1
-		#If the broom should spawn in loot chests.
-		lootChests = true
 		#Show broom part tooltips on source items.
 		broomPartTooltips = true
 		#The X offset for the broom gui overlay.
@@ -220,9 +207,9 @@
 		areaOfEffect = 10
 
 	[item.vengeance_pickaxe]
-		#The default fortune enchantment level on these pickaxes.
+		#The default fortune enchantment level on these pickaxes in the creative tab.
 		fortuneLevel = 5
-		#The default vengeance enchantment level on these pickaxes.
+		#The default vengeance enchantment level on these pickaxes in the creative tab.
 		vengeanceLevel = 3
 
 	[item.burning_gem_stone]
@@ -267,18 +254,6 @@
 		#The capacity of the pendant.
 		capacity = 5000
 
-	[item.ender_tear]
-		#If this item should be injected in loot tables..
-		injectLootTables = true
-
-	[item.origins_of_darkness]
-		#If this item should be injected in loot tables.
-		injectLootTables = true
-
-	[item.condensed_blood]
-		#If this item should be injected in loot tables..
-		injectLootTables = true
-
 	[item.flesh_rejuvenated]
 		#The amount of blood (mB) this container can hold.
 		containerSize = 10000
@@ -301,18 +276,6 @@
 		#If creative versions for all variants should be added to the creative tab.
 		creativeTabVariants = true
 
-	[item.box_of_eternal_closure]
-		#If this item should be injected in loot tables..
-		injectLootTables = true
-
-	[item.vengeance]
-		#The area of effect in blocks in which this tool could enable vengeance spirits.
-		areaOfEffect = 5
-		#The ^-1 chance for which vengeance spirits could be toggled.
-		vengeanceChance = 3
-
-[mob]
-
 	[mob.kineticator]
 		#The blacklisted items which should not be influenced by the Kineticator, by unique item/blockState name.
 		kineticateBlacklist = ["appliedenergistics2:item.ItemCrystalSeed"]
@@ -333,15 +296,17 @@
 		#The 1/X chance that an actual spirit will spawn when doing actions like mining with the Vengeance Pickaxe.
 		nonDegradedSpawnChance = 5
 		#The area in which the spawn limit will be checked on each spawn attempt.
-		spawnLimitArea = 32
+		spawnLimitArea = 24
 		#The blacklisted entity spirits, by entity name. Regular expressions are allowed.
 		entityBlacklist = ["evilcraft:vengeance_spirit", "evilcraft:controlled_zombie", "evilcraft:werewolf", "minecraft:ender_dragon", "farmingforblockheads:merchant"]
 		#Whether vengeance spirits should always be visible in creative mode.
 		alwaysVisibleInCreative = false
 		#The maximum amount of vengeance spirits naturally spawnable in the spawnLimitArea.
-		spawnLimit = 5
+		spawnLimit = 2
 
-[entity]
+	[mob.werewolf]
+		#If villagers struck by lightning should have a 50% chance of becoming a werewolf villager
+		convertOnLightning = true
 
 	[entity.lightning_bomb_primed]
 		#The amount of ticks (on average), this bomb should tick before explosion.
@@ -350,10 +315,3 @@
 	[entity.attack_vengeance_beam]
 		#If crossed beams should cause explosions.
 		crossBeamsExplosions = true
-
-[enchantment]
-
-	[enchantment.life_stealing]
-		#The final modifier that should be applied to the healing amount.
-		healModifier = 0.1
-

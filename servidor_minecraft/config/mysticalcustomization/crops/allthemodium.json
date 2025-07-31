@@ -3,7 +3,7 @@
   "type": "mysticalagriculture:resource",
   "tier": "mysticalcustomization:magical",
   "ingredient": {
-    "tag": "forge:storage_blocks/allthemodium"
+    "tag": "c:storage_blocks/allthemodium"
   },
   "color": "FCFC3D",
   "textures": {

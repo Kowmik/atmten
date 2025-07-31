@@ -3,7 +3,7 @@
     "type": "mysticalagriculture:resource",
     "tier": "mysticalagriculture:3",
     "ingredient": {
-      "tag": "forge:ingots/crimson_iron"
+      "tag": "c:ingots/crimson_iron"
     },
     "color": "FC6087",
     "textures": {

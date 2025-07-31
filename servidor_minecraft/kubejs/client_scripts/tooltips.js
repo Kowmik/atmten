@@ -1,120 +1,201 @@
-// priority: 0
+// This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 10.
+// As all AllTheMods packs are licensed under All Rights Reserved, this file is not allowed to be used in any public packs not released by the AllTheMods Team, without explicit permission.
 
-ItemEvents.tooltip(event => {
-  // Re-add Chemlib info to unified materials
-  let chemlibTooltips = JsonIO.read('kubejs/client_scripts/chemlibCompat.json')
-  chemlibTooltips.forEach((item, tooltips) => {
-    event.addAdvanced(item, (stack, advanced, text) => {
-      text.add(1, tooltips[0])
-      if (tooltips.length > 1) {
-        text.add(2, tooltips[1])
-      }
-    })
-  })
-  
-  //AllTheModium
-  event.add('allthemodium:teleport_pad',[
-    Text.of('Place the pad down in the specified Dimension'),
-    Text.of('Sneak Right Click with both hands empty to teleport'),
-    Text.of('§aOverworld TO Mining Dimension').red(),
-    Text.of('§cThe Nether TO The Other').red()
-  ])
-  
-  //Mekanism
-  event.add('mekanism:creative_energy_cube', [ [Text.of('Needs to be Energized').darkPurple()],])
-  
-  // Mob Grinding Utils
-  event.addAdvanced('mob_grinding_utils:rotten_egg', (stack, advanced, text) => {
-    text.add(3, Text.of("Created from Cursed Chicken Feed").yellow())
-  })
-  event.addAdvanced('mob_grinding_utils:golden_egg', (stack, advanced, text) => {
-    text.add(3, Text.of("Created from Nutritious Chicken Feed").yellow())
-  })
-  
-  // RS Infinity Booster
-  event.add('rsinfinitybooster:infinity_card', [
-    Text.of('Infinite range for RS wireless'),
-    Text.of('Only works in the same dimension')
-  ])
-  event.add('rsinfinitybooster:dimension_card', [
-    Text.of('Infinite range for RS wireless'),
-    Text.of('Works across dimensions')
-  ])
+ItemEvents.modifyTooltips(allthemods => {
 
-  // AE2 Infinity Booster
-  event.add('aeinfinitybooster:infinity_card', [
-    Text.of('Infinite range for AE2 wireless'),
-    Text.of('Only works in the same dimension')
-  ])
-  event.add('aeinfinitybooster:dimension_card', [
-    Text.of('Infinite range for AE2 wireless'),
-    Text.of('Works across dimensions')
-  ])
+    //AllTheModium
+    allthemods.add('allthemodium:teleport_pad',[
+        Text.of('Place the pad down in the specified Dimension'),
+        Text.of('Sneak Right Click with both hands empty to teleport'),
+        Text.of('§aOverworld TO Mining Dimension'),
+        Text.of('§cThe Nether TO The Other'),
+        Text.of('§bThe End TO The Beyond')
+    ])
 
-  //pipes
-  event.add('pipez:item_pipe', [
-    [Text.of('Default:'), ' ', Text.of('4'), ' ', Text.of('items/20t')],
-    [Text.of('Basic:'), ' ', Text.of('8'), ' ', Text.of('items/15t')],
-    [Text.of('Improved:').gold(), ' ', Text.of('16').yellow(), ' ', Text.of('items/10t').gold()],
-    [Text.of('Advanced:').darkAqua(), ' ', Text.of('32').aqua(), ' ', Text.of('items/5t').darkAqua()],
-    [Text.of('Ultimate:').darkGray(), ' ', Text.of('64').gray(), ' ', Text.of('items/t').darkGray()],
-    [Text.of('Infinity:').darkPurple(), ' ', Text.of('2,147,483,647').lightPurple(), ' ', Text.of('items/t').darkPurple()],
-  ])
-  event.add('pipez:fluid_pipe', [
-    [Text.of('Default:'), ' ', Text.of('50'), ' ', Text.of('mB/t')],
-    [Text.of('Basic:'), ' ', Text.of('100'), ' ', Text.of('mB/t')],
-    [Text.of('Improved:').gold(), ' ', Text.of('500').yellow(), ' ', Text.of('mB/t').gold()],
-    [Text.of('Advanced:').darkAqua(), ' ', Text.of('2,000').aqua(), ' ', Text.of('mB/t').darkAqua()],
-    [Text.of('Ultimate:').darkGray(), ' ', Text.of('10,000').gray(), ' ', Text.of('mB/t').darkGray()],
-    [Text.of('Infinity:').darkPurple(), ' ', Text.of('2,147,483,647').lightPurple(), ' ', Text.of('mB/t').darkPurple()],
-  ])
-  event.add('pipez:gas_pipe', [
-    [Text.of('Default:'), ' ', Text.of('200'), ' ', Text.of('mB/t')],
-    [Text.of('Basic:'), ' ', Text.of('400'), ' ', Text.of('mB/t')],
-    [Text.of('Improved:').gold(), ' ', Text.of('2,000').yellow(), ' ', Text.of('mB/t').gold()],
-    [Text.of('Advanced:').darkAqua(), ' ', Text.of('8,000').aqua(), ' ', Text.of('mB/t').darkAqua()],
-    [Text.of('Ultimate:').darkGray(), ' ', Text.of('40,000').gray(), ' ', Text.of('mB/t').darkGray()],
-    [Text.of('Infinity:').darkPurple(), ' ', Text.of('2,147,483,647').lightPurple(), ' ', Text.of('mB/t').darkPurple()],
-  ])
-  event.add('pipez:energy_pipe', [
-    [Text.of('Default:'), ' ', Text.of('256'), ' ', Text.of('FE/t')],
-    [Text.of('Basic:'), ' ', Text.of('1,024'), ' ', Text.of('FE/t')],
-    [Text.of('Improved:').gold(), ' ', Text.of('8,192').yellow(), ' ', Text.of('FE/t').gold()],
-    [Text.of('Advanced:').darkAqua(), ' ', Text.of('32,768').aqua(), ' ', Text.of('FE/t').darkAqua()],
-    [Text.of('Ultimate:').darkGray(), ' ', Text.of('131,072').gray(), ' ', Text.of('FE/t').darkGray()],
-    [Text.of('Infinity:').darkPurple(), ' ', Text.of('2,147,483,647').lightPurple(), ' ', Text.of('FE/t').darkPurple()],
-  ])
+    allthemods.add(['allthemodium:allthemodium_ore', 'allthemodium:allthemodium_slate_ore'],[
+        Text.of('§7Needs at least Netherite to be mined'),
+        Text.of('§6Found in the Deep Dark Biome and will always spawn air exposed'),
+        Text.of('§6Also found in the Deep Slate Layer of Mining Dimension')
+    ])
+    allthemods.add(['allthemodium:vibranium_ore', 'allthemodium:other_vibranium_ore'],[
+        Text.of('§7Needs at least AllTheModium to be mined'),
+        Text.of('§bFound in any Nether biome'),
+        Text.of('§bAlso found in The Other')
+    ])
+    allthemods.add('allthemodium:unobtainium_ore',[
+        Text.of('§7Needs at least Vibranium to be mined'),
+        Text.of('§dFound in the End Highlands')
+    ])
 
-  //upgrades
-  event.add('pipez:basic_upgrade', [
-    [Text.of('Item:'), ' ', Text.of('8'), ' ', Text.of('items/15t')],
-    [Text.of('Fluid:'), ' ', Text.of('100'), ' ', Text.of('mB/t')],
-    [Text.of('Gas:'), ' ', Text.of('400'), ' ', Text.of('mB/t')],
-    [Text.of('Energy:'), ' ', Text.of('1,024'), ' ', Text.of('FE/t')],
-  ])
-  event.add('pipez:improved_upgrade', [
-    [Text.of('Item:').gold(), ' ', Text.of('16').yellow(), ' ', Text.of('items/10t').gold()],
-    [Text.of('Fluid:').gold(), ' ', Text.of('500').yellow(), ' ', Text.of('mB/t').gold()],
-    [Text.of('Gas:').gold(), ' ', Text.of('2,000').yellow(), ' ', Text.of('mB/t').gold()],
-    [Text.of('Energy:').gold(), ' ', Text.of('8,192').yellow(), ' ', Text.of('FE/t').gold()],
-  ])
-  event.add('pipez:advanced_upgrade', [
-    [Text.of('Item:').darkAqua(), ' ', Text.of('32').aqua(), ' ', Text.of('items/5t').darkAqua()],
-    [Text.of('Fluid:').darkAqua(), ' ', Text.of('2,000').aqua(), ' ', Text.of('mB/t').darkAqua()],
-    [Text.of('Gas:').darkAqua(), ' ', Text.of('8,000').aqua(), ' ', Text.of('mB/t').darkAqua()],
-    [Text.of('Energy:').darkAqua(), ' ', Text.of('32,768').aqua(), ' ', Text.of('FE/t').darkAqua()],
-  ])
-  event.add('pipez:ultimate_upgrade', [
-    [Text.of('Item:').darkGray(), ' ', Text.of('64').gray(), ' ', Text.of('items/t').darkGray()],
-    [Text.of('Fluid:').darkGray(), ' ', Text.of('10,000').gray(), ' ', Text.of('mB/t').darkGray()],
-    [Text.of('Gas:').darkGray(), ' ', Text.of('40,000').gray(), ' ', Text.of('mB/t').darkGray()],
-    [Text.of('Energy:').darkGray(), ' ', Text.of('131,072').gray(), ' ', Text.of('FE/t').darkGray()],
-  ])
-  event.add('pipez:infinity_upgrade', [
-    [Text.of('Item:').darkPurple(), ' ', Text.of('2,147,483,647').lightPurple(), ' ', Text.of('items/t').darkPurple()],
-    [Text.of('Fluid:').darkPurple(), ' ', Text.of('2,147,483,647').lightPurple(), ' ', Text.of('mB/t').darkPurple()],
-    [Text.of('Gas:').darkPurple(), ' ', Text.of('2,147,483,647').lightPurple(), ' ', Text.of('mB/t').darkPurple()],
-    [Text.of('Energy:').darkPurple(), ' ', Text.of('2,147,483,647').lightPurple(), ' ', Text.of('FE/t').darkPurple()],
-  ])
+    allthemods.add('kubejs:silent_allthemodium_plate',[
+        Text.of("§7§oIt's less... talkative now")
+    ])
+    allthemods.add('kubejs:silent_vibranium_plate',[
+        Text.of("§7§oIt's less... talkative now")
+    ])
+    allthemods.add('kubejs:silent_unobtainium_plate',[
+        Text.of("§7§oIt's less... talkative now")
+    ])
 
+    allthemods.add('allthemodium:allthemodium_ingot',[
+        Text.of("§7§oThese arent the ingots you are looking for"),
+        Text.of("§6Look for the [Silent Allthemodium Plate]")
+    ])
+    allthemods.add('allthemodium:vibranium_ingot',[
+        Text.of("§7§oThese arent the ingots you are looking for"),
+        Text.of("§6Look for the [Silent Vibranium Plate]")
+    ])
+    allthemods.add('allthemodium:unobtainium_ingot',[
+        Text.of("§7§oThese arent the ingots you are looking for"),
+        Text.of("§6Look for the [Silent Unobtainium Plate]")
+    ])
+
+
+    allthemods.add('allthemodium:allthemodium_upgrade_smithing_template',[
+        Text.of('§6Found in Suspicious Clay in Ancient Cities')
+    ])
+    allthemods.add('allthemodium:vibranium_upgrade_smithing_template',[
+        Text.of('§bFound in Suspicious Soul Sand in Bastions')
+    ])
+    allthemods.add('allthemodium:unobtainium_upgrade_smithing_template',[
+        Text.of('§dDropped by the Trial Spawner in the Library of the Dungeon within The Other')
+    ])
+
+    //Forbidden Arcanus
+    allthemods.add('forbidden_arcanus:hephaestus_forge_tier_1',[
+        Text.of("§c§lShift-Right-Click§r§c the §c§lSmithing Table§r§c with §lMundabitur Dust"),
+        Text.of("§c█ = Gilded Chiseled Polished Darkstone with Smithing Table on top"),
+        Text.of("§7█ = Polished Darkstone"),
+        Text.of("§5█§7 = Gilded Chiseled Polished Darkstone"),
+        Text.of("§6█§7 = Chiseled Arcane Polished Darkstone"),
+        Text.of("§0███§7███§0███"),
+        Text.of("§0█§7███§5█§7███§0█"),
+        Text.of("§0█§7█§5█§7███§5█§7█§0█"),
+        Text.of("§7████§6█§7████"),
+        Text.of("§7█§5█§7█§6█§c█§6█§7█§5█§7█"),
+        Text.of("§7████§6█§7████"),
+        Text.of("§0█§7█§5█§7███§5█§7█§0█"),
+        Text.of("§0█§7███§5█§7███§0█"),
+        Text.of("§0███§7███§0███")
+
+    ])
+    allthemods.add('forbidden_arcanus:clibano_core',[
+        Text.of("§c§lShift-Right-Click§r§c the §c§lClibano Core§r§c with §c§lMundabitur Dust"),
+        Text.of("§5█§7 = Polished Darkstone"),
+        Text.of("§7█ = Polished Darkstone Bricks"),
+        Text.of("§6█§7 = Clibano Core"),
+        Text.of("§7Right to Left -> Bottom to Top"),
+        Text.of("§5█§7█§5█§0█§7███§0█§5█§7█§5█"),
+        Text.of("§7███§0█§7█§0█§7█§0█§7███"),
+        Text.of("§5█§7█§5█§0█§7█§6█§7█§0█§5█§7█§5█"),
+    ])
+    allthemods.add('forbidden_arcanus:growing_edelwood',[
+        Text.of("§4Obtainable from the Wandering Trader"),
+        Text.of("§4Or by using a Corrupt Soul on an Oak Sapling"),
+    ])
+    allthemods.add('forbidden_arcanus:magnetized_darkstone_pedestal',[
+        Text.of("§7Use Ferrognetic Mixture on the Darkstone Pedesta"),
+    ])
+    allthemods.add('forbidden_arcanus:soul',[
+        Text.of("§7Use a Soul Extractor on Soul Sand"),
+        Text.of("§7Rarely spawns in world"),
+    ])
+    allthemods.add('forbidden_arcanus:enchanted_soul',[
+        Text.of("§7Use a Splash Aureal Bottle on a normal soul")
+    ])
+    allthemods.add('forbidden_arcanus:corrupt_soul',[
+        Text.of("§7Rarely spawns when killing mobs")
+    ])
+    allthemods.add('forbidden_arcanus:blood_test_tube',[
+        Text.of("§7Hold a test tube in your off-hand and then kill mobs")
+    ])
+    allthemods.add('forbidden_arcanus:xpetrified_orb',[
+        Text.of("§7Only obtainable via the Black Hole"),
+        Text.of("§7To make a Black Hole throw Dark Matter together with Corrupti Dust on the ground"),
+        Text.of("§7Feed it enough xp to make it spit out an Xpetrified Orb")
+    ])
+    allthemods.add('forbidden_arcanus:dragon_scale',[
+        Text.of("§7Dropped by the Ender Dragon")
+    ])
+    allthemods.add('forbidden_arcanus:stella_arcanum',[
+        Text.of("§7Very rarely spawns between Y -44 and Y 42"),
+        Text.of("§cWill explode when you mine it!")
+    ])
+    allthemods.add(/forbidden_arcanus:runic_[sd]/,[
+        Text.of("§7Spawns at the bottom of the world up to Y 2"),
+    ])
+    allthemods.add(['forbidden_arcanus:arcane_crystal_ore', 'forbidden_arcanus:deepslate_arcane_crystal_ore'],[
+        Text.of("§7Very rarely spawns between Y -40 and Y 14"),
+        Text.of("§7Most common at Y -13")
+    ])
+    allthemods.add('forbidden_arcanus:artisan_relic',[
+        Text.of("§aFound in the Armorer, Toolsmith, or Weaponsmith villager buildings"),
+    ])
+    allthemods.add('forbidden_arcanus:crescent_moon',[
+        Text.of("§cUnobtainable"),
+    ])
+    allthemods.add('forbidden_arcanus:crimson_stone',[
+        Text.of("§aFound in Pillager Outposts"),
+    ])
+    allthemods.add('forbidden_arcanus:soul_crimson_stone',[
+        Text.of("§cWill turn into a Crimson Stone after 1 use"),
+    ])
+    allthemods.add('forbidden_arcanus:elementarium',[
+        Text.of("§aFound in Jungle Temples, Desert Pyramids, and Underwater Ruins"),
+    ])
+    allthemods.add('forbidden_arcanus:divine_pact',[
+        Text.of("§aFound in the Village and Pyramid in The Other"),
+    ])
+    allthemods.add('forbidden_arcanus:maledictus_pact',[
+        Text.of("§aFound in Treasure Bastions"),
+    ])
+
+    //Mystical Agriculture
+    allthemods.add(/mysticalagriculture:.*watering_can/,[
+        Text.of("§cDisabled for Fake Player"),
+        Text.of("§c(Blocks like Modular Routers, Clickers, etc)")
+    ])
+
+    allthemods.add('toolbelt:belt', [
+        Text.of("§7Has it's own slot to be placed in"),
+        Text.of("§7Check your Keybinds for \"Open Belt Slot Inventory\"")
+    ])
+
+	//Easy Villagers
+    allthemods.add(['easy_villagers:trader', 'easy_villagers:auto_trader'], [
+        Text.of("§aRight click with job site block to put it inside and allow trade restocking")
+    ])
+
+	//Hyperbox
+    allthemods.add('hyperbox:hyperbox', [
+        Text.of("§aDue to a memory leak, these are no longer craftable.  If it is fixed in the future they will be reenabled.")
+    ])
+
+	//Eternal Starlight
+    allthemods.add('eternal_starlight:loot_bag[eternal_starlight:loot_table="eternal_starlight:bosses/lunar_monstrosity"]', [
+        Text.of('This loot bag is from the \"Lunar Monstrosity\".')
+    ])
+
+    if (Platform.isLoaded('modular_machinery_reborn')) {
+        allthemods.add('modular_machinery_reborn:controller[modular_machinery_reborn:machine="atm:runic_crucible"]', [
+            Text.of('§cWARNING, this machine has be depreciated.'),
+            Text.of('Use crafting table to convert to the new version.')
+        ])
+        allthemods.add('modular_machinery_reborn:controller[modular_machinery_reborn:machine="atm:runic_star_altar"]', [
+            Text.of('§cWARNING, this machine has be depreciated.'),
+            Text.of('Use crafting table to convert to the new version.')
+        ])
+        allthemods.add('modular_machinery_reborn:controller[modular_machinery_reborn:machine="atm:runic_enchanter"]', [
+            Text.of('§cWARNING, this machine has be depreciated.'),
+            Text.of('Use crafting table to convert to the new version.')
+        ])
+        allthemods.add('modular_machinery_reborn:controller[modular_machinery_reborn:machine="atm:auto_hepheastus_forge"]', [
+            Text.of('§cWARNING, this machine has be depreciated.'),
+            Text.of('Use crafting table to convert to the new version.')
+        ])
+    }
 })
+
+
+// This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 10.
+// As all AllTheMods packs are licensed under All Rights Reserved, this file is not allowed to be used in any public packs not released by the AllTheMods Team, without explicit permission.
